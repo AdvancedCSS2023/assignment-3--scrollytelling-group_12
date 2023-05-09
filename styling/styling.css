@@ -10,35 +10,53 @@
 }
 
 .scene2 {
-  height: 100vh;
-  width: 100%;
-  background: black;
+margin:0;
+height:1500vh;
+background: #a8c0ff;
+border: solid red;
 }
 
 
 .scene2_sky {
-  height: 65vh;
+  height: 70vh;
   width: 100%;
-  background-color: cornflowerblue;
+  background: #a8c0ff;
 }
 
 
 .scene2_ground {
-  display: flex;
-  height: 35vh;
-  width: 100%;
-  background-color: rgb(146, 107, 18);
+width: 100vw;
+height: 30vh;
+position: relative;
+z-index: 1;
+background: #ddb966;
+display: flex;
+padding: 0;
 }
 
-.scene2_runway {
-background: black;
-width: 100%;
+#scene2_airport {
+  position:absolute;
+  max-width: 60%;
+  max-height: 60%;
+  top: 110%;
 }
 
-img {
-  max-width: 70%;
-  max-height: 70%;
+#scene2_airplane {
+  position: absolute;
+  max-width: 30%;
+  max-height: 30%;
+  transform: rotateY(180deg) rotateZ(12deg);
+  z-index: +1;
+  top: 170%;
   
+}
+
+#scene2_runway {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  transform: rotate(5deg);
+  top: 130%;
 }
 
 .scene3 {
