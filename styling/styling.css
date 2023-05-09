@@ -3,31 +3,58 @@
   margin: 0;
 }
 
-#scene1 {
+.scene1 {
   height: 100vh;
   width: 100%;
   background: blue;
 }
 
-#scene2 {
+.scene2 {
   height: 100vh;
   width: 100%;
-  background: dodgerblue;
+  background: black;
 }
 
-#scene3 {
+
+.scene2_sky {
+  height: 65vh;
+  width: 100%;
+  background-color: cornflowerblue;
+}
+
+
+.scene2_ground {
+  display: flex;
+  height: 35vh;
+  width: 100%;
+  background-color: rgb(146, 107, 18);
+}
+
+.scene2_runway {
+background: black;
+width: 100%;
+}
+
+img {
+  max-width: 70%;
+  max-height: 70%;
+  
+}
+
+.scene3 {
   height: 100vh;
   width: 100%;
   background: purple;
 }
 
-#scene4 {
+
+.scene4 {
   height: 100vh;
   width: 100%;
   background: yellow;
 }
 
-#scene5 {
+.scene5 {
   height: 100vh;
   width: 100%;
   background: red;
