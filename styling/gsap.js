@@ -281,6 +281,8 @@ gsap.to("#birds1", {
     start: "top",
     end: "bottom bottom",
     pin:".ground"
+    
+
  })
 
  
