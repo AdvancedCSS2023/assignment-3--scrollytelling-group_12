@@ -21,7 +21,7 @@ button {
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
-  transform: translate(80vh);
+  transform: translate(80vh, -80vh);
   
 }
 
@@ -71,17 +71,18 @@ button:hover {
 }
 
 
+
 .kofi{
   transform: translateX(500px);
   transform: translateY(300px);
 }
 
 .kofi__school{
-  transform: translate(200px, 200px);
+  transform: translate(600px, 200px);
 }
 
 .adult__kofi{
-  transform: translate(500px, 200px);
+  transform: translate(700px, -500px);
 
 }
 
