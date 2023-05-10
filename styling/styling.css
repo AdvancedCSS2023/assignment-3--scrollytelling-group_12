@@ -25,6 +25,33 @@ button {
   
 }
 
+@keyframes rave {
+  0% {
+    fill: #FF00FF;
+  }
+  25% {
+    fill: #00FF00;
+  }
+  50% {
+    fill: #FFFF00;
+  }
+  75% {
+    fill: #FF0000;
+  }
+  100% {
+    fill: #FF00FF;
+  }
+}
+
+
+
+#door, #left-big-window, #right-big-window  {
+  animation: rave 1s infinite;
+}
+
+
+
+
 .pump{
   transform: translate(700px,400px);
 }
@@ -60,6 +87,8 @@ a{
 button:hover {
   background-color: rgb(105, 178, 191);
 }
+
+
 
 
 .ground {
