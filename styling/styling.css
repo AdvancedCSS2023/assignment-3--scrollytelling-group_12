@@ -35,10 +35,9 @@ p{
 
 
 #scene1 {
-margin:0;
-height:1500vh;
-background: #a8c0ff;
-border: solid red;
+  height: 100vh;
+  width: 100%;
+  background: white;
 }
 
 
@@ -54,13 +53,17 @@ border: solid red;
 }
 
 .kofi__school{
-  transform: translateX(200px);
-  transform: translateY(300px);
+  transform: translate(200px, 200px);
 }
 
 .adult__kofi{
-  transform: translateX(500px);
-  transform: translateY(200px);
+  transform: translate(500px, 200px);
+
+}
+
+.Red-friend{
+  position: absolute;
+  transform: translate(500px, 200px);
 }
 
 #scene2 {
@@ -139,6 +142,29 @@ border: solid red;
   
   
 }
+
+
+
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+
+#RF-blink {
+  animation: blink 3s ease-in-out infinite;
+}
+
+
+
 
 
 @keyframes walk {
