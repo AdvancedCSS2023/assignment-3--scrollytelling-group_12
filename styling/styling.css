@@ -25,6 +25,33 @@ button {
   
 }
 
+.pump{
+  transform: translate(700px,400px);
+}
+
+.drop{
+  transform: translate(710px,300px);
+  animation: water-drop 1s infinite;
+}
+
+.drop2{
+  transform: translate(710px,300px);
+  animation: water-drop 1s infinite;
+}
+
+@keyframes water-drop {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 a{
   text-decoration: none;
   color: #fff;
@@ -94,7 +121,7 @@ button:hover {
 #scene2 {
   height: 100vh;
   width: 100%;
-  background: dodgerblue;
+  background: wheat;
 }
 
 #scene3 {
