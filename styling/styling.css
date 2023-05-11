@@ -3,8 +3,8 @@
   #kid-face, #school-face, #door,
 #left-big-window,
 #right-big-window {
-    -webkit-animation: none;
-            animation: none;
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
   }
 }
 body {
@@ -627,6 +627,9 @@ button {
   z-index: 2;
 }
 
+.scene3__text {
+  opacity: 0;
+}
 
 @-webkit-keyframes rave {
   0% {
@@ -1116,7 +1119,7 @@ button:hover {
   margin: 0;
 }
 
-.scene2 {
+#scene2 {
   margin: 0;
   height: 300vh;
   background: #a8c0ff;
@@ -1126,6 +1129,7 @@ button:hover {
 .scene2_sky {
   height: 70vh;
   width: 100%;
+  background: #a8c0ff;
 }
 
 .scene2_ground {
@@ -1202,11 +1206,6 @@ button:hover {
   left: 30%;
   -webkit-animation: MoveUpDown 2s ease-in-out infinite;
           animation: MoveUpDown 2s ease-in-out infinite;
-}
-
-#scene2_text {
-  position: absolute;
-  top: 20%
 }
 
 @-webkit-keyframes MoveUpDown {
