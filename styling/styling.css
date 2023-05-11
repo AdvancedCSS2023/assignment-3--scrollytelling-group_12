@@ -307,6 +307,24 @@ position: absolute;
   z-index: 2;
 }
 
+#clock--animation{
+  animation: spin 2s linear infinite;
+
+}
+
+
+@keyframes clock {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
 .school{
   position: absolute;
   transform: translate(2em, 11em);
@@ -348,6 +366,7 @@ position: absolute;
   50% { transform: rotate(10deg); }
   100% { transform: rotate(0deg); }
 }
+
 
 
 
