@@ -774,7 +774,7 @@ button:hover {
 }
 
 .ground5 {
-  width: 100%;
+  width: 100vw;
   height: 30vh;
   position: absolute;
   z-index: 1;
