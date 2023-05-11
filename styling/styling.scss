@@ -107,6 +107,7 @@ p {
 }
 
   #stars {
+    max-width: 50%;
     margin: auto;
     position: relative;
     top: 0; 
@@ -211,11 +212,20 @@ z-index: -1;
 
 
 #sky {
-  height: 300vh;
-  background: linear-gradient(to bottom, #4d5a6a, #808080, #a8c0ff);
-}
-
-
+    height: 300vh;
+    background: linear-gradient(to bottom, #4d5a6a, #808080, #a8c0ff);
+    position: relative;
+  }
+  
+  .ground2 {
+    width: 200vh;
+    height: 30vh;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background: #ddb966;
+    padding: 0;
+  }
 /*
 #scene1 {
   margin:0;
@@ -245,10 +255,15 @@ z-index: -1;
 }
 
 
+
+
+
+
+/* Plasser ground nederst i sky og add pin fra top scene 1 til bottom */
 .ground {
   width: 200vh;
   height: 30vh;
-  top: 3.7%;
+  top: 3.2%;
   position: relative;
   z-index: 1;
   background: #ddb966;
@@ -393,7 +408,25 @@ z-index: -1;
 }
 
 
+.text-container {
+    margin: auto;
+    position: relative;
+    top: 5%;
+    background: url(/images/text_box.avif);
+    max-width: 20%;
+    min-height: 2%;
+    left: 30%;
+    display: flex;
+    justify-content:center;
+}
 
+.inner-text {
+    width: 80%;
+    background: white;
+    padding: 2%;
+    margin: 5%;
+   
+}
 
 
 #hut {
@@ -427,11 +460,30 @@ left: 30%;
 }
 
 
+.punkt1{
+    position: relative;
+    top:10%;
+    width: 20px;
+    height: 20px;
+    border: solid red;
+}
 
 
+.punkt{
+    position: relative;
+    top:20%;
+    width: 20px;
+    height: 20px;
+    border: solid red;
+}
 
-
-
+.punkt3{
+    position: relative;
+    top:30%;
+    width: 20px;
+    height: 20px;
+    border: solid red;
+}
 
 
 
