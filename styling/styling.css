@@ -923,7 +923,17 @@ button:hover {
   position: absolute;
 }
 
+.scene3__text1 {
+    position: absolute;
+    left: 22%;
+    top: 40%;
+}
 
+.scene3__text2 {
+  position: absolute;
+  left: -12%;
+  text-align: left;
+}
 
 .scene5 {
   height: 100vh;
