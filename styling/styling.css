@@ -1,24 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 @media (prefers-reduced-motion: reduce) {
   #kid-face {
-    -webkit-animation-play-state: paused;
-            animation-play-state: paused;
+    -webkit-animation: none !important;
+            animation: none !important;
   }
   #school-face {
-    -webkit-animation-play-state: paused;
-            animation-play-state: paused;
+    -webkit-animation: none !important;
+            animation: none !important;
   }
   #door {
-    -webkit-animation-play-state: paused;
-            animation-play-state: paused;
+    -webkit-animation: none !important;
+            animation: none !important;
   }
-  #left-big-win {
-    -webkit-animation-play-state: paused;
-            animation-play-state: paused;
+  #left-big-window {
+    -webkit-animation: none !important;
+            animation: none !important;
   }
   #right-big-window {
-    -webkit-animation-play-state: paused;
-            animation-play-state: paused;
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+  .sun3 {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+  .sun5 {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+  .drop {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+  .drop1 {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+  .drop2 {
+    -webkit-animation: none !important;
+            animation: none !important;
   }
 }
 body {
@@ -641,7 +661,9 @@ button {
   z-index: 2;
 }
 
-
+.scene3__text {
+  opacity: 0;
+}
 
 @-webkit-keyframes rave {
   0% {
@@ -923,16 +945,10 @@ button:hover {
   position: absolute;
 }
 
-.scene3__text1 {
-    position: absolute;
-    left: 22%;
-    top: 40%;
-}
-
-.scene3__text2 {
-  position: absolute;
-  left: -12%;
-  text-align: left;
+#scene4 {
+  height: 100vh;
+  width: 100%;
+  background: yellow;
 }
 
 .scene5 {
@@ -1137,7 +1153,7 @@ button:hover {
   margin: 0;
 }
 
-.scene2 {
+#scene2 {
   margin: 0;
   height: 300vh;
   background: #a8c0ff;
