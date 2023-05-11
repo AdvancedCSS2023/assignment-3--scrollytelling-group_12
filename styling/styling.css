@@ -46,16 +46,16 @@ button {
 }
 
 .tree1{
-  transform: translate(600px,200px);
+  transform: translate(700px,300px);
   position: absolute;
-  z-index: 1;
+  z-index: 2;
 }
 
 
 .tree2{
-  transform: translate(100px,200px);
+  transform: translate(50px,440px);
   position: absolute;
-  z-index: 1;
+  z-index: 2;
 }
 
 button:hover{
@@ -90,20 +90,20 @@ button:hover{
 
 
 .pump{
-  transform: translate(750px,400px);
+  transform: translate(750px,500px);
   position: absolute;
   z-index: 2;
 }
 
 .drop{
-  transform: translate(760px,570px);
+  transform: translate(760px,670px);
   animation: water-drop1 1s infinite;
   position: absolute;
   z-index: 2;
 }
 
 .drop2{
-  transform: translate(760px,620px);
+  transform: translate(760px,720px);
   animation: water-drop2 1s infinite;
   position: absolute;
   z-index: 2;
@@ -156,16 +156,17 @@ button:hover {
   padding: 0;
 }
 
+
 .ground5{
   
-    width: 200vh;
+    width: 100%;
     height: 30vh;
     position: absolute;
     z-index: 1;
-    background: #ddb966;
+    background: olivedrab;
     display: flex;
    
-    transform: translateY(34.5em);
+    transform: translateY(38.4em);
 
 
 }
@@ -178,6 +179,12 @@ button:hover {
   max-height: 500px;
 }
 
+.cloud1{
+  max-width: 30%;
+  position: absolute;
+  transform: translate(60em, 10em);
+  z-index: 3;
+}
 
 
 
@@ -188,45 +195,57 @@ button:hover {
   background: white;
 }
 
+.sun5{
+  position: absolute;
+  animation: spin 2s linear infinite;
+}
+
+
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
 
 
 .house1 {
-  transform: translate(900px,150px);
+  transform: translate(950px,250px);
   position: absolute;
-  z-index:2;
+  z-index:3;
 }
 
 
 .house2 {
-  transform: translate(200px,230px);
+  transform: translate(200px,290px);
   position: absolute;
-  z-index:2;
+  z-index:3;
 }
 
 .kid__kofi{
   position: absolute;
   transform: translate(0px,500px);
-  z-index: 2;
+  z-index: 3;
 }
 
 
 .school__kofi{
-  transform: translate(300px, 300px);
+  transform: translate(230px, 400px);
   z-index: 3;
   position: absolute;
 }
 
 .adult__kofi{
-  transform: translate(600px, 300px);
-  z-index: 2;
+  transform: translate(600px, 400px);
+  z-index: 3;
 position: absolute;
 }
 
 .Red-friend{
   position: absolute;
-  transform: translate(500px, 400px);
+  transform: translate(500px, 450px);
   z-index: 3;
 }
+
 
 #scene2 {
   height: 100vh;
@@ -237,7 +256,34 @@ position: absolute;
 #scene3 {
   height: 100vh;
   width: 100%;
-  background: purple;
+  background: skyblue;
+}
+
+.ground3{
+  width: 100%;
+    height: 30vh;
+    position: absolute;
+    z-index: 1;
+    background: olivedrab;
+    display: flex;
+   transform: translateY(38.4em);
+}
+
+
+.kofi__school2{
+  position: absolute;
+  transform: translate(4em, 20em);
+  z-index: 2;
+}
+
+.school{
+  position: absolute;
+  transform: translate(2em, 11em);
+  z-index: 2;
+}
+
+.sun{
+  position: absolute;
 }
 
 #scene4 {
@@ -279,7 +325,16 @@ position: absolute;
 }
 
 #kid-face{
-  animation: tilt-head 3s infinite;
+  animation: bobbing 0.1s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+
+
+@keyframes bobbing {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
 }
 
 
@@ -290,7 +345,8 @@ position: absolute;
 
 
 #school-face{
-  animation: tilt-head 3s infinite;
+  animation: bobbing 0.1s ease-in-out infinite;
+  transform-origin: bottom center;
 }
 
 
@@ -529,10 +585,7 @@ span {
   z-index: -1;
 }
 
-#sky {
-  height: 300vh;
-  background: linear-gradient(to bottom, #4d5a6a, #808080, #a8c0ff);
-}
+
 
 /*
 #scene1 {
@@ -553,12 +606,6 @@ span {
   padding: 0;
 }
 */
-#scene1 {
-  margin: 0;
-  height: 2000vh;
-  background: #a8c0ff;
-  border: solid red;
-}
 
 .ground {
   width: 200vh;
