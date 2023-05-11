@@ -907,7 +907,7 @@ button:hover {
 
 .school {
   position: absolute;
-  transform: translate(2em, 11em);
+  transform: translate(50%, 11em);
   z-index: 2;
 }
 
