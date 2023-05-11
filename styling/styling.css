@@ -918,10 +918,52 @@ button:hover {
   position: absolute;
 }
 
-#scene4 {
-  height: 100vh;
+.scene4 {
+  height: 300vh;
   width: 100%;
-  background: yellow;
+  position: relative;
+  background: #a8c0ff;
+}
+.scene4_sky {
+  height: 70vh;
+  width: 100%;
+}
+
+
+.scene4_ground {
+width: 100vw;
+height: 30vh;
+position: absolute;
+z-index: 1;
+background: #ddb966;
+padding: 0;
+}
+
+#scene4_airport {
+  position:absolute;
+  max-width: 150%;
+  max-height: 150%;
+  bottom: 80%;
+}
+
+#scene4_airplane {
+  position: absolute;
+  max-width: 40%;
+  max-height: 40%;
+  transform: rotateZ(-10deg);
+  z-index: +1;
+  left: 70%; 
+  top: -150%; 
+  
+}
+
+#scene4_runway {
+  position: absolute;
+  max-width: 200%;
+  max-height: 200%;
+  transform: rotate(5deg);
+  left: 10%;
+  top: -50%;
 }
 
 #scene5 {
