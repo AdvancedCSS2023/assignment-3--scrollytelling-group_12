@@ -800,11 +800,6 @@ button:hover {
   z-index: 3;
 }
 
-#scene1 {
-  height: 100vh;
-  width: 100%;
-  background: white;
-}
 
 .sun5 {
   position: absolute;
@@ -876,13 +871,9 @@ button:hover {
   z-index: 3;
 }
 
-#scene2 {
-  height: 100vh;
-  width: 100%;
-  background: wheat;
-}
 
-#scene3 {
+
+.scene3 {
   height: 100vh;
   width: 100%;
   background: skyblue;
@@ -915,13 +906,9 @@ button:hover {
   position: absolute;
 }
 
-#scene4 {
-  height: 100vh;
-  width: 100%;
-  background: yellow;
-}
 
-#scene5 {
+
+.scene5 {
   height: 100vh;
   width: 100%;
   background: skyblue;
