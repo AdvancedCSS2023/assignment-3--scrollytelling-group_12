@@ -426,4 +426,19 @@ scrub: 1
 landing.to("#scene4_airplane", {x: -750, y: 450, duration: 2})
 .to("#scene4_airplane", {x: -1100, y: 520, duration: 5});
     
-   
+
+//Scene text
+gsap.registerPlugin(ScrollTrigger);
+
+const text = document.querySelector(".scene3__text");
+
+gsap.to(text, {
+  opacity: 1,
+  duration: 1,
+  scrollTrigger: {
+    trigger: ".section",
+    start: "top 10%", // Change this value to adjust when the text should appear
+    end: "bottom",
+    toggleActions: "play none none none"
+  }
+});
