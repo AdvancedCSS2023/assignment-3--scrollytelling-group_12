@@ -90,21 +90,28 @@ button:hover{
 
 
 .pump{
-  transform: translate(750px,500px);
+  transform: translate(750px,550px);
   position: absolute;
   z-index: 2;
 }
 
 .drop{
-  transform: translate(760px,670px);
+  transform: translate(773px,640px);
   animation: water-drop1 1s infinite;
   position: absolute;
   z-index: 2;
 }
 
 .drop2{
-  transform: translate(760px,720px);
+  transform: translate(773px,690px);
   animation: water-drop2 1s infinite;
+  position: absolute;
+  z-index: 2;
+}
+
+.drop3{
+  transform: translate(773px,740px);
+  animation: water-drop3 1s infinite;
   position: absolute;
   z-index: 2;
 }
@@ -117,7 +124,7 @@ button:hover{
     opacity: 0;
   }
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -130,6 +137,18 @@ button:hover{
   }
   100% {
     opacity: 0;
+  }
+}
+
+@keyframes water-drop3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
@@ -182,7 +201,7 @@ button:hover {
 .cloud1{
   max-width: 30%;
   position: absolute;
-  transform: translate(60em, 10em);
+  transform: translate(6em, 10em);
   z-index: 3;
 }
 
@@ -257,6 +276,7 @@ position: absolute;
   height: 100vh;
   width: 100%;
   background: skyblue;
+  position: relative;
 }
 
 .ground3{
