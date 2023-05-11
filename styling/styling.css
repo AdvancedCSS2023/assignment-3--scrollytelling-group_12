@@ -22,8 +22,11 @@ html, body {
 
 
 p{
-  margin-left: 2em;
-  transform: translateY(400px);
+  transform: translate(50em,0em);
+  width: 30em;
+  color: white;
+  font-weight: bolder;
+  position: absolute;
 }
 
 button {
@@ -36,14 +39,24 @@ button {
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
-  transform: translate(80vh, -80vh);
+  transform: translate(20em,5em);
+  position: absolute;
+  z-index: 3;
   
 }
 
 .tree1{
-  transform: translate(900px,-900px);
+  transform: translate(600px,200px);
+  position: absolute;
+  z-index: 1;
 }
 
+
+.tree2{
+  transform: translate(100px,200px);
+  position: absolute;
+  z-index: 1;
+}
 
 button:hover{
 
@@ -77,20 +90,26 @@ button:hover{
 
 
 .pump{
-  transform: translate(700px,400px);
+  transform: translate(750px,400px);
+  position: absolute;
+  z-index: 2;
 }
 
 .drop{
-  transform: translate(710px,300px);
-  animation: water-drop 1s infinite;
+  transform: translate(760px,570px);
+  animation: water-drop1 1s infinite;
+  position: absolute;
+  z-index: 2;
 }
 
 .drop2{
-  transform: translate(710px,300px);
-  animation: water-drop 1s infinite;
+  transform: translate(760px,620px);
+  animation: water-drop2 1s infinite;
+  position: absolute;
+  z-index: 2;
 }
 
-@keyframes water-drop {
+@keyframes water-drop1 {
   0% {
     opacity: 1;
   }
@@ -102,6 +121,17 @@ button:hover{
   }
 }
 
+@keyframes water-drop2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 a{
   text-decoration: none;
@@ -134,8 +164,8 @@ button:hover {
     z-index: 1;
     background: #ddb966;
     display: flex;
-    padding: 0;
-    transform: translateY(-75vh);
+   
+    transform: translateY(34.5em);
 
 
 }
@@ -161,32 +191,41 @@ button:hover {
 
 
 .house1 {
-  transform: translateX(600px);
+  transform: translate(900px,150px);
+  position: absolute;
+  z-index:2;
+}
+
+
+.house2 {
+  transform: translate(200px,230px);
+  position: absolute;
+  z-index:2;
+}
+
+.kid__kofi{
+  position: absolute;
+  transform: translate(0px,500px);
+  z-index: 2;
+}
+
+
+.school__kofi{
+  transform: translate(300px, 300px);
+  z-index: 3;
   position: absolute;
 }
 
-
-
-.kofi{
-  transform: translateX(500px);
-  transform: translateY(300px);
-  z-index: 2;
-}
-
-.kofi__school{
-  transform: translate(600px, 200px);
-  z-index: 2;
-}
-
 .adult__kofi{
-  transform: translate(700px, -500px);
+  transform: translate(600px, 300px);
   z-index: 2;
-
+position: absolute;
 }
 
 .Red-friend{
   position: absolute;
-  transform: translate(500px, 200px);
+  transform: translate(500px, 400px);
+  z-index: 3;
 }
 
 #scene2 {
@@ -210,7 +249,7 @@ button:hover {
 #scene5 {
   height: 100vh;
   width: 100%;
-  background: red;
+  background: skyblue;
   z-index: -1000;
 }/*# sourceMappingURL=styling.css.map */
 
@@ -248,9 +287,7 @@ button:hover {
   animation: look-around 3s infinite;
 }
 
-.kofi__kid{
-  transform: translateX(300px);
-}
+
 
 #school-face{
   animation: tilt-head 3s infinite;
@@ -258,14 +295,6 @@ button:hover {
 
 
 
-.kofi__kid{
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    animation: walk 6s ease-in-out infinite;
-  
-  
-}
 
 
 
