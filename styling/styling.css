@@ -485,12 +485,21 @@ span {
   margin: 5%;
 }
 
+.sun1 {
+  position: relative;
+  left: 40%;
+  max-width: 100%;
+  border: red solid;
+  z-index: 0;
+}
+
 .sun {
   max-width: 100%;
   border: red solid;
   position: relative;
   right: 30%;
   z-index: 0;
+  top: 20%;
 }
 
 #hut {
