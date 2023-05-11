@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@media (prefers-reduced-motion: reduce) {
+  #kid-face, #school-face, #door,
+#left-big-window,
+#right-big-window {
+    -webkit-animation: none;
+            animation: none;
+  }
+}
 body {
   margin: 0;
   overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  #kid-face, #school-face {
-    -webkit-animation: none;
-            animation: none;
-  }
-}
 ul {
   margin: 0;
   padding: 40px;
