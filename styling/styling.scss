@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    overflow-x: hidden;
 }
 
 
@@ -72,6 +73,9 @@ p {
 .active {
     background-size: 100% 100%;
 }
+
+
+
   
   #movieboard2 {
     display: block;
@@ -428,6 +432,19 @@ z-index: -1;
    
 }
 
+.sun {
+    max-width: 100%;
+    border: red solid;
+    position: relative;
+    right: 30%;
+    z-index: 0;
+}
+
+
+
+
+
+
 
 #hut {
   position: absolute;
@@ -462,7 +479,7 @@ left: 30%;
 
 .punkt1{
     position: relative;
-    top:10%;
+    top:7.5%;
     width: 20px;
     height: 20px;
     border: solid red;
