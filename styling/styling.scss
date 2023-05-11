@@ -1,7 +1,18 @@
+@media (prefers-reduced-motion: reduce) {
+  #kid-face, #school-face,#door,
+  #left-big-window,
+  #right-big-window {
+    animation: none;
+  }
+}
+
+
 body {
   margin: 0;
   overflow-x: hidden;
 }
+
+
 
 ul {
   margin: 0;
