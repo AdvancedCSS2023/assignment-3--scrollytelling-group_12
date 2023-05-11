@@ -1,8 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 @media (prefers-reduced-motion: reduce) {
-  #kid-face, #school-face, #door,
-#left-big-window,
-#right-big-window {
+  #kid-face {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+  #school-face {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+  #door {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+  #left-big-win {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+  #right-big-window {
     -webkit-animation-play-state: paused;
             animation-play-state: paused;
   }

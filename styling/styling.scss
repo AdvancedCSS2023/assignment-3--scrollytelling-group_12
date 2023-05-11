@@ -1,11 +1,22 @@
 @media (prefers-reduced-motion: reduce) {
-  #kid-face, #school-face,#door,
-  #left-big-window,
-  #right-big-window {
+  #kid-face {
+    animation-play-state: paused;
+  }
+  #school-face {
+    animation-play-state: paused;
+  }
+  #door {
+    animation-play-state: paused;
+  }
+  #left-big-win{
+    animation-play-state: paused;
+  }
+  #right-big-window{
     animation-play-state: paused;
   }
 }
 
+  
 
 body {
   margin: 0;
