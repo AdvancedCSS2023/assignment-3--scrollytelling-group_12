@@ -423,7 +423,8 @@ scrub: 1
 }
 });
     
-landing.to("#scene4_airplane", {x: -750, y: 450, duration: 2})
-.to("#scene4_airplane", {x: -1100, y: 520, duration: 5});
+landing.to("#scene4_airplane", {x: -700, y: 400, duration: 2})
+.to("#scene4_airplane", {x: -1000, y: 480, duration: 5})
+.to(".scene4_ground", {opacity: 0, duration: 1}, "-=1");
     
 
