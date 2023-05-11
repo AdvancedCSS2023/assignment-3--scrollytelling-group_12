@@ -1207,6 +1207,11 @@ button:hover {
           animation: MoveUpDown 2s ease-in-out infinite;
 }
 
+#scene2_text {
+  position: absolute;
+  top: 20%
+}
+
 @-webkit-keyframes MoveUpDown {
   0%, 100% {
     transform: translateY(0);
