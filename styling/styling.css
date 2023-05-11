@@ -1,28 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
 }
 
-html, body {
+html,
+body {
   box-sizing: border-box;
 }
 
-
-p{
-  transform: translate(50em,0em);
+p {
+  transform: translate(50em, 0em);
   width: 30em;
   color: white;
   font-weight: bolder;
@@ -39,78 +41,72 @@ button {
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
-  transform: translate(20em,5em);
+  transform: translate(20em, 5em);
   position: absolute;
   z-index: 3;
-  
 }
 
-.tree1{
-  transform: translate(700px,300px);
+.tree1 {
+  transform: translate(700px, 300px);
   position: absolute;
   z-index: 2;
 }
 
-
-.tree2{
-  transform: translate(50px,440px);
+.tree2 {
+  transform: translate(50px, 440px);
   position: absolute;
   z-index: 2;
 }
 
-button:hover{
-
+button:hover {
 }
 
 @keyframes rave {
   0% {
-    fill: #FF00FF;
+    fill: #ff00ff;
   }
   25% {
-    fill: #00FF00;
+    fill: #00ff00;
   }
   50% {
-    fill: #FFFF00;
+    fill: #ffff00;
   }
   75% {
-    fill: #FF0000;
+    fill: #ff0000;
   }
   100% {
-    fill: #FF00FF;
+    fill: #ff00ff;
   }
 }
 
-
-
-#door, #left-big-window, #right-big-window  {
+#door,
+#left-big-window,
+#right-big-window {
   animation: rave 1s infinite;
 }
 
-
-
-
-.pump{
-  transform: translate(750px,550px);
+.pump {
+  transform: translate(750px, 550px);
   position: absolute;
   z-index: 2;
 }
 
-.drop{
-  transform: translate(773px,640px);
+.drop {
+  transform: translate(773px, 640px);
   animation: water-drop1 1s infinite;
   position: absolute;
   z-index: 2;
 }
 
-.drop2{
-  transform: translate(773px,690px);
+.drop2 {
+  transform: translate(773px, 690px);
   animation: water-drop2 1s infinite;
   position: absolute;
   z-index: 2;
 }
 
-.drop3{
-  transform: translate(773px,740px);
+.drop3 {
+  transform: translate(773px, 740px);
   animation: water-drop3 1s infinite;
   position: absolute;
   z-index: 2;
@@ -152,7 +148,7 @@ button:hover{
   }
 }
 
-a{
+a {
   text-decoration: none;
   color: #fff;
 }
@@ -160,9 +156,6 @@ a{
 button:hover {
   background-color: rgb(105, 178, 191);
 }
-
-
-
 
 .ground {
   width: 200vh;
@@ -175,38 +168,23 @@ button:hover {
   padding: 0;
 }
 
-
-.ground5{
-  
-    width: 100%;
-    height: 30vh;
-    position: absolute;
-    z-index: 1;
-    background: olivedrab;
-    display: flex;
-   
-    transform: translateY(38.4em);
-
-
-}
-
-  #hut {
+.ground5 {
+  width: 100%;
+  height: 30vh;
   position: absolute;
-  bottom: 50%;
-  left: 10%;
-  max-width: 500px;
-  max-height: 500px;
+  z-index: 1;
+  background: olivedrab;
+  display: flex;
+
+  transform: translateY(38.4em);
 }
 
-.cloud1{
+.cloud1 {
   max-width: 30%;
   position: absolute;
   transform: translate(6em, 10em);
   z-index: 3;
 }
-
-
-
 
 #scene1 {
   height: 100vh;
@@ -214,68 +192,66 @@ button:hover {
   background: white;
 }
 
-.sun5{
+.sun5 {
   position: absolute;
   animation: spin 2s linear infinite;
 }
 
-
-
 @keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-
 
 .house1 {
-  transform: translate(950px,250px);
+  transform: translate(950px, 250px);
   position: absolute;
-  z-index:3;
+  z-index: 3;
 }
-
 
 .house2 {
-  transform: translate(200px,290px);
+  transform: translate(200px, 290px);
   position: absolute;
-  z-index:3;
-}
-
-.music{
-  position: absolute;
-  transform: translate(300px,200px);
-}
-
-.kid__kofi{
-  position: absolute;
-  transform: translate(0px,500px);
   z-index: 3;
 }
 
-.kid__kofi2{
+.music {
   position: absolute;
-  transform: translate(1200px,570px);
+  transform: translate(300px, 200px);
+}
+
+.kid__kofi {
+  position: absolute;
+  transform: translate(0px, 500px);
   z-index: 3;
 }
 
+.kid__kofi2 {
+  position: absolute;
+  transform: translate(1200px, 570px);
+  z-index: 3;
+}
 
-.school__kofi{
+.school__kofi {
   transform: translate(230px, 400px);
   z-index: 3;
   position: absolute;
 }
 
-.adult__kofi{
+.adult__kofi {
   transform: translate(600px, 400px);
   z-index: 3;
-position: absolute;
+  position: absolute;
 }
 
-.Red-friend{
+.Red-friend {
   position: absolute;
   transform: translate(500px, 450px);
   z-index: 3;
 }
-
 
 #scene2 {
   height: 100vh;
@@ -290,28 +266,25 @@ position: absolute;
   position: relative;
 }
 
-.ground3{
+.ground3 {
   width: 100%;
-    height: 30vh;
-    position: absolute;
-    z-index: 1;
-    background: olivedrab;
-    display: flex;
-   transform: translateY(38.4em);
+  height: 30vh;
+  position: absolute;
+  z-index: 1;
+  background: olivedrab;
+  display: flex;
+  transform: translateY(38.4em);
 }
 
-
-.kofi__school2{
+.kofi__school2 {
   position: absolute;
   transform: translate(4em, 20em);
   z-index: 2;
 }
 
-#clock--animation{
+#clock--animation {
   animation: spin 2s linear infinite;
-
 }
-
 
 @keyframes clock {
   from {
@@ -322,16 +295,13 @@ position: absolute;
   }
 }
 
-
-
-
-.school{
+.school {
   position: absolute;
   transform: translate(2em, 11em);
   z-index: 2;
 }
 
-.sun{
+.sun {
   position: absolute;
 }
 
@@ -346,64 +316,74 @@ position: absolute;
   width: 100%;
   background: skyblue;
   z-index: -1000;
-}/*# sourceMappingURL=styling.css.map */
-
+} /*# sourceMappingURL=styling.css.map */
 
 @keyframes look-around {
-  0% { transform: translateX(0); }
-  50% { transform: translateX(3px); }
-  100% { transform: translateX(0); }
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @keyframes hair-animation {
-  0% { transform: translateX(0); }
-  50% { transform: translateX(3px); }
-  100% { transform: translateX(0); }
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @keyframes tilt-head {
-  0% { transform: rotate(0deg); }
-  50% { transform: rotate(10deg); }
-  100% { transform: rotate(0deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
-
-
-
-#kid-eyes, #adult-eyes {
+#kid-eyes,
+#adult-eyes {
   animation: look-around 3s infinite;
 }
 
-#kid-face{
+#kid-face {
   animation: bobbing 0.1s ease-in-out infinite;
   transform-origin: bottom center;
 }
-
-
 
 @keyframes bobbing {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-8px); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
-
-#school-hair{
+#school-hair {
   animation: look-around 3s infinite;
 }
 
-
-
-#school-face{
+#school-face {
   animation: bobbing 0.1s ease-in-out infinite;
   transform-origin: bottom center;
 }
-
-
-
-
-
-
 
 @keyframes blink {
   0% {
@@ -417,14 +397,9 @@ position: absolute;
   }
 }
 
-
 #RF-blink {
   animation: blink 3s ease-in-out infinite;
 }
-
-
-
-
 
 @keyframes walk {
   0% {
@@ -444,85 +419,6 @@ position: absolute;
   }
 }
 
-
-body {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 40px;
-  display: flex;
-  justify-content: flex-end;
-  list-style-type: none;
-}
-
-li {
-  margin-right: 60px;
-}
-
-.nav-active {
-  background-color: white;
-  color: black;
-}
-
-p {
-  padding-top: 50px;
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-#movieboard {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
-  z-index: 2;
-}
-
-#movieboard-container {
-  position: relative;
-  bottom: 270px;
-  left: 70px;
-  background: white;
-  width: 77%;
-  height: 40%;
-  z-index: 2;
-}
-
-#headline {
-  font-family: monospace;
-  text-align: center;
-  padding: 3%;
-  color: white;
-}
-
-#headline2 {
-  font-family: monospace;
-  text-align: center;
-  padding: 2%;
-  color: white;
-}
-
-span {
-  background-image: linear-gradient(black, black);
-  background-size: 0% 100%;
-  background-repeat: no-repeat;
-  transition: background-size 1s ease-in;
-}
-
-.active {
-  background-size: 100% 100%;
-}
-
-#movieboard2 {
-  display: block;
-  margin: 0 auto;
-  max-width: 90%;
-  max-height: 90%;
-}
-
 @keyframes wiggle {
   0% {
     transform: translateY(0);
@@ -534,128 +430,6 @@ span {
     transform: translateY(0);
   }
 }
-#space {
-  height: 400vh;
-  background: linear-gradient(to bottom, #000000, #1c2331, #4d5a6a);
-}
-
-.star-container {
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-}
-
-#stars {
-  margin: auto;
-  position: relative;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
-
-#satelite {
-  max-width: 600px;
-  max-height: 600px;
-  margin: auto;
-  position: absolute; /* set the position property to absolute */
-  top: 70%; /* set the top property to 0 */
-  left: 60%;
-  z-index: 0;
-  animation: wiggle 0.5s infinite;
-}
-
-#astronaut {
-  max-width: 400px;
-  max-height: 400px;
-  margin: auto;
-  position: absolute; /* set the position property to absolute */
-  top: 100%; /* set the top property to 0 */
-  left: 10%;
-  z-index: 0;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  transform-origin: 50% 150%;
-  animation: float-rotate 10s linear infinite;
-}
-
-@keyframes float-rotate {
-  0% {
-    transform: translate(0, 0) rotate(0deg);
-  }
-  50% {
-    transform: translate(20%, 20%) rotate(180deg);
-  }
-  100% {
-    transform: translate(0, 0) rotate(360deg);
-  }
-}
-#astroid {
-  margin: auto;
-  position: absolute;
-  top: 20%;
-  left: -40%;
-  z-index: 0;
-}
-
-#box {
-  width: 100px;
-  height: 100px;
-  background-color: pink;
-  margin: auto;
-}
-
-.curtains {
-  display: flex;
-  flex-direction: row;
-  z-index: 1;
-  height: 100vh;
-}
-
-.left-curtain {
-  width: 50%;
-  background: url(/images/curtain1.png);
-  background-repeat: round;
-}
-
-.right-curtain {
-  width: 50%;
-  background: url(/images/curtain1.png);
-  background-repeat: round;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-#birds1 {
-  max-width: 35%;
-  max-height: 35%;
-  transform: rotate(0.5turn);
-  transform: translate(-600px, 0px);
-  z-index: -1;
-}
-
-
-
-/*
-#scene1 {
-  margin:0;
-  height:1500vh;
-  background: #a8c0ff;
-  border: solid red;
-}
-
-
-.ground {
-  width: 200vh;
-  height: 30vh;
-  top: 5%;
-  position: relative;
-  z-index: 1;
-  background: #ddb966;
-  padding: 0;
-}
-*/
 
 .ground {
   width: 200vh;
@@ -666,160 +440,3 @@ span {
   background: #ddb966;
   padding: 0;
 }
-
-.crack {
-  position: absolute;
-  width: 5px;
-  height: 20px;
-  background-color: #FFA500; /* Set the color of the cracks to an orange tone */
-  opacity: 0; /* Start the opacity at 0 to create the effect of the cracks gradually appearing */
-  transform-origin: bottom center;
-}
-
-.crack:nth-child(1) {
-  bottom: 50px;
-  left: 10%;
-  transform: rotate(-20deg);
-  animation: crack-1 3s ease-in-out infinite;
-}
-
-.crack:nth-child(2) {
-  bottom: 80px;
-  left: 20%;
-  transform: rotate(-30deg);
-  animation: crack-2 3s ease-in-out infinite;
-}
-
-.crack:nth-child(3) {
-  bottom: 120px;
-  left: 30%;
-  transform: rotate(-40deg);
-  animation: crack-3 3s ease-in-out infinite;
-}
-
-.crack:nth-child(4) {
-  bottom: 90px;
-  left: 40%;
-  transform: rotate(-20deg);
-  animation: crack-4 3s ease-in-out infinite;
-}
-
-.crack:nth-child(5) {
-  bottom: 140px;
-  left: 50%;
-  transform: rotate(-30deg);
-  animation: crack-5 3s ease-in-out infinite;
-}
-
-.crack:nth-child(6) {
-  bottom: 120px;
-  left: 60%;
-  transform: rotate(-40deg);
-  animation: crack-6 3s ease-in-out infinite;
-}
-
-.crack:nth-child(7) {
-  bottom: 70px;
-  left: 70%;
-  transform: rotate(-20deg);
-  animation: crack-7 3s ease-in-out infinite;
-}
-
-@keyframes crack-1 {
-  0% {
-    opacity: 0;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.5;
-    transform: scale(1.5);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(2);
-  }
-}
-@keyframes crack-2 {
-  0% {
-    opacity: 0;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.5;
-    transform: scale(1.5);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(2);
-  }
-}
-@keyframes crack-3 {
-  0% {
-    opacity: 0;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.5;
-    transform: scale(1.5);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(2);
-  }
-}
-.crack2 {
-  bottom: 30%;
-  border-top: 1px solid black;
-  border-right: 1px solid transparent;
-  border-left: 1px solid transparent;
-  height: 0;
-  width: 100px;
-  opacity: 0.5;
-  position: absolute;
-  animation-name: zigzag;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes zigzag {
-  0% {
-    opacity: 0.5;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.8;
-    transform: scale(2);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(3);
-  }
-}
-#hut {
-  position: absolute;
-  bottom: 50%;
-  left: 10%;
-  max-width: 500px;
-  max-height: 500px;
-}
-
-.dried-trees {
-  display: flex;
-  position: relative;
-  justify-content: space-around;
-}
-
-.dried-trees:nth-child(-n+3) {
-  bottom: 60%;
-  width: 60%;
-  height: 100%;
-  left: 30%;
-}
-
-#big-hole {
-  position: absolute;
-  max-width: 30%;
-  max-height: 30%;
-  bottom: 30%;
-  left: 65%;
-}/*# sourceMappingURL=styling.css.map */
