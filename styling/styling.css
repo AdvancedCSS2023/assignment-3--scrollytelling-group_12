@@ -240,9 +240,20 @@ button:hover {
   z-index:3;
 }
 
+.music{
+  position: absolute;
+  transform: translate(300px,200px);
+}
+
 .kid__kofi{
   position: absolute;
   transform: translate(0px,500px);
+  z-index: 3;
+}
+
+.kid__kofi2{
+  position: absolute;
+  transform: translate(1200px,570px);
   z-index: 3;
 }
 
