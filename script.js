@@ -309,13 +309,13 @@ ScrollTrigger.create({
       pin: ".text-container",
 
       pinSpacing: true,
-     markers: {
+     //markers: {
         startColor: "purple",
      endColor: "fuchsia",
      fontSize: "3rem",
     },
     },
-  });
+  );
 
 
 
@@ -325,7 +325,7 @@ ScrollTrigger.create({
     start: "top 100%",
     end: "+=3000",
     pin:".sun",
-    markers: true 
+    //markers: true 
  })
 
  
@@ -350,7 +350,7 @@ ScrollTrigger.create ({
   start: "top 100%",
   end: "+=3000",
   pin:".sun",
-  markers: true 
+  //markers: true 
 })
 
 // animasjon for sola
