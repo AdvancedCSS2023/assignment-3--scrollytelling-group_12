@@ -504,4 +504,447 @@ left: 30%;
 
 
 
+/* Petter */
 
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Varela Round", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  box-sizing: border-box;
+}
+
+p {
+  transform: translate(50em, 0em);
+  width: 30em;
+  color: white;
+  font-weight: bolder;
+  position: absolute;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: wheat;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transform: translate(20em, 5em);
+  position: absolute;
+  z-index: 3;
+}
+
+.tree1 {
+  transform: translate(700px, 300px);
+  position: absolute;
+  z-index: 2;
+}
+
+.tree2 {
+  transform: translate(50px, 440px);
+  position: absolute;
+  z-index: 2;
+}
+
+button:hover {
+}
+
+@keyframes rave {
+  0% {
+    fill: #ff00ff;
+  }
+  25% {
+    fill: #00ff00;
+  }
+  50% {
+    fill: #ffff00;
+  }
+  75% {
+    fill: #ff0000;
+  }
+  100% {
+    fill: #ff00ff;
+  }
+}
+
+#door,
+#left-big-window,
+#right-big-window {
+  animation: rave 1s infinite;
+}
+
+.pump {
+  transform: translate(750px, 550px);
+  position: absolute;
+  z-index: 2;
+}
+
+.drop {
+  transform: translate(773px, 640px);
+  animation: water-drop1 1s infinite;
+  position: absolute;
+  z-index: 2;
+}
+
+.drop2 {
+  transform: translate(773px, 690px);
+  animation: water-drop2 1s infinite;
+  position: absolute;
+  z-index: 2;
+}
+
+.drop3 {
+  transform: translate(773px, 740px);
+  animation: water-drop3 1s infinite;
+  position: absolute;
+  z-index: 2;
+}
+
+@keyframes water-drop1 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes water-drop2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes water-drop3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button:hover {
+  background-color: rgb(105, 178, 191);
+}
+
+.ground {
+  width: 200vh;
+  height: 30vh;
+  top: 5%;
+  position: relative;
+  z-index: 1;
+  background: #ddb966;
+  display: flex;
+  padding: 0;
+}
+
+.ground5 {
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  z-index: 1;
+  background: olivedrab;
+  display: flex;
+
+  transform: translateY(38.4em);
+}
+
+.cloud1 {
+  max-width: 30%;
+  position: absolute;
+  transform: translate(6em, 10em);
+  z-index: 3;
+}
+
+#scene1 {
+  height: 100vh;
+  width: 100%;
+  background: white;
+}
+
+.sun5 {
+  position: absolute;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.house1 {
+  transform: translate(950px, 250px);
+  position: absolute;
+  z-index: 3;
+}
+
+.house2 {
+  transform: translate(200px, 290px);
+  position: absolute;
+  z-index: 3;
+}
+
+.music {
+  position: absolute;
+  transform: translate(300px, 200px);
+}
+
+.kid__kofi {
+  position: absolute;
+  transform: translate(0px, 500px);
+  z-index: 3;
+}
+
+.kid__kofi2 {
+  position: absolute;
+  transform: translate(1200px, 570px);
+  z-index: 3;
+}
+
+.school__kofi {
+  transform: translate(230px, 400px);
+  z-index: 3;
+  position: absolute;
+}
+
+.adult__kofi {
+  transform: translate(600px, 400px);
+  z-index: 3;
+  position: absolute;
+}
+
+.Red-friend {
+  position: absolute;
+  transform: translate(500px, 450px);
+  z-index: 3;
+}
+
+#scene2 {
+  height: 100vh;
+  width: 100%;
+  background: wheat;
+}
+
+#scene3 {
+  height: 100vh;
+  width: 100%;
+  background: skyblue;
+  position: relative;
+}
+
+.ground3 {
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  z-index: 1;
+  background: olivedrab;
+  display: flex;
+  transform: translateY(38.4em);
+}
+
+.kofi__school2 {
+  position: absolute;
+  transform: translate(4em, 20em);
+  z-index: 2;
+}
+
+#clock--animation {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes clock {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.school {
+  position: absolute;
+  transform: translate(2em, 11em);
+  z-index: 2;
+}
+
+.sun {
+  position: absolute;
+}
+
+#scene4 {
+  height: 100vh;
+  width: 100%;
+  background: yellow;
+}
+
+#scene5 {
+  height: 100vh;
+  width: 100%;
+  background: skyblue;
+  z-index: -1000;
+} /*# sourceMappingURL=styling.css.map */
+
+@keyframes look-around {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes hair-animation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes tilt-head {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#kid-eyes,
+#adult-eyes {
+  animation: look-around 3s infinite;
+}
+
+#kid-face {
+  animation: bobbing 0.1s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+@keyframes bobbing {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#school-hair {
+  animation: look-around 3s infinite;
+}
+
+#school-face {
+  animation: bobbing 0.1s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+#RF-blink {
+  animation: blink 3s ease-in-out infinite;
+}
+
+@keyframes walk {
+  0% {
+    transform: translateX(0) rotate(0);
+  }
+  25% {
+    transform: translateX(1000px) rotate(10deg);
+  }
+  50% {
+    transform: translateX(0) rotate(0);
+  }
+  75% {
+    transform: translateX(-10px) rotate(-10deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0);
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.ground {
+  width: 200vh;
+  height: 30vh;
+  top: 3.7%;
+  position: relative;
+  z-index: 1;
+  background: #ddb966;
+  padding: 0;
+}
