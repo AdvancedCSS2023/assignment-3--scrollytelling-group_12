@@ -250,13 +250,8 @@ gsap.to("#birds1", {
     trigger: "#satelite",
     start: "bottom",
      end: "bottom",
-     
-     
-    
-    
    },
    });
-
 
 
 
@@ -285,37 +280,67 @@ gsap.to("#birds1", {
 
  
 
-/*
-   gsap.utils.toArray(".color").forEach(function(elem) {
-
-    var color = elem.getAttribute('data-color');
-    
-    ScrollTrigger.create({
-      trigger: elem,
-      start:'top',
-      end:'bottom',
-      onEnter: () => gsap.to('#scene1', {backgroundColor:color}), 
-      onLeave: () => gsap.to('#scene1', {backgroundColor:'white'}), 
-      onLeaveBack: () => gsap.to('#scene1', {backgroundColor:'white'}), 
-      onEnterBack: () => gsap.to('#scene1', {backgroundColor:color}), 
-      markers:true
-    });
-  
-  });
-*/
 
 
 
 
-// select the .ground2 element
-const ground2 = document.querySelector('.ground2');
-
-// pin the .ground2 element with ScrollTrigger
-gsap.registerPlugin(ScrollTrigger);
 ScrollTrigger.create({
-  trigger: '#scene1', // start pinning when the top of #scene1 reaches the top of the viewport
+  trigger: '#scene1', 
   start: "top 100%",
-  endTrigger: "bottom", // stop pinning when the bottom of #scene1 reaches the bottom of the viewport
-  pin: ".ground2", // pin the .ground2 element
-  pinSpacing: false // use the top and bottom boundaries of #scene1 for pinning
+  endTrigger: "bottom", 
+  pin: ".ground2", 
+  pinSpacing: false 
 });
+
+
+
+
+
+
+  gsap.to(".text-container", {
+    duration: 8,
+    scrollTrigger: {
+      trigger: ".punkt1",
+      start: "top 100%",
+    end: "bottom",
+  scrub: 4,
+      toggleActions: "restart none none none",
+  
+      pin: ".text-container",
+
+      pinSpacing: true,
+     markers: {
+        startColor: "purple",
+     endColor: "fuchsia",
+     fontSize: "3rem",
+    },
+    },
+  });
+
+
+
+// Pinner sola
+  ScrollTrigger.create ({
+    trigger:".sun",
+    start: "top 100%",
+    end: "+=6000",
+    pin:".sun",
+    markers: true 
+ })
+
+ 
+// animasjon for sola
+  const tlSun = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".sun",
+        //markers: true,
+        start: "top 100%",
+        end: "+=3000",
+        scrub: true,
+    }
+});
+
+tlSun.to(".sun", {x:1050, y:-850, duration: 4})
+.to(".sun", {x: 2500, y: 0, duration: 4})
+
+
