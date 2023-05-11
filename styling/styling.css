@@ -4,6 +4,12 @@ body {
   overflow-x: hidden;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  #kid-face, #school-face {
+    -webkit-animation: none;
+            animation: none;
+  }
+}
 ul {
   margin: 0;
   padding: 40px;
@@ -903,7 +909,11 @@ button:hover {
   position: absolute;
 }
 
-
+#scene4 {
+  height: 100vh;
+  width: 100%;
+  background: yellow;
+}
 
 .scene5 {
   height: 100vh;
