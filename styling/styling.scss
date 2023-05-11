@@ -826,8 +826,8 @@ button:hover {
   animation: look-around 3s infinite;
 }
 
-#kid-face {
-  animation: bobbing 0.1s ease-in-out infinite;
+#kid-face, #school-face {
+  animation: bobbing 2s ease-in-out infinite;
   transform-origin: bottom center;
 }
 
@@ -847,10 +847,6 @@ button:hover {
   animation: look-around 3s infinite;
 }
 
-#school-face {
-  animation: bobbing 0.1s ease-in-out infinite;
-  transform-origin: bottom center;
-}
 
 @keyframes blink {
   0% {
