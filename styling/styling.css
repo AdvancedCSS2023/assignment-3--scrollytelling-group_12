@@ -779,7 +779,6 @@ button:hover {
   position: absolute;
   z-index: 1;
   background: olivedrab;
-  display: flex;
   transform: translateY(38.4em);
 }
 
@@ -1010,7 +1009,6 @@ button:hover {
   position: absolute;
   z-index: 1;
   background: olivedrab;
-  display: flex;
   transform: translateY(38.4em);
 }
 
@@ -1050,6 +1048,10 @@ button:hover {
 
 .sun {
   position: absolute;
+}
+
+.sun3{
+position: absolute;
 }
 
 .scene4 {

@@ -413,6 +413,11 @@ span {
   top: 20%;
 }
 
+.sun3{
+  position: absolute;
+  transform: translateX(300px);
+}
+
 #hut {
   position: absolute;
   bottom: 50%;
@@ -639,14 +644,14 @@ button:hover {
 }
 
 .ground5 {
-  width: 100%;
+  width: 100vw;
   height: 30vh;
   position: absolute;
   z-index: 1;
   background: olivedrab;
-  display: flex;
+  padding: 0;
+  
 
-  transform: translateY(38.4em);
 }
 
 .cloud1 {
