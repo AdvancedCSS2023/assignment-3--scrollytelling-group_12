@@ -323,7 +323,7 @@ ScrollTrigger.create({
   ScrollTrigger.create ({
     trigger:".sun",
     start: "top 100%",
-    end: "+=6000",
+    end: "+=3000",
     pin:".sun",
     markers: true 
  })
