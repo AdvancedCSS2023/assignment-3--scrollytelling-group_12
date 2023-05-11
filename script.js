@@ -306,26 +306,16 @@ gsap.to("#birds1", {
 
 
 
-  // 2
-// Lage toggleClass endrer på fargen til objektet
 
-// gsap.to(".square", {
-//  duration: 3,
-// scrollTrigger: {
-//   trigger: ".square",
-// start: "top 30%",
-// end: "center 20%",
-// Bedre metode: legger til verdien av .Square (høyden) som den er (mer dynamisk) Her kan man legge til vh! (i css)
-// end: () => `+=${document.querySelector(".square").offsetHeight}`,
-// markers: true,
-// Ny animasjon lagt til i CSS
-// toggleClass: "red"
-// }
-// })
+// select the .ground2 element
+const ground2 = document.querySelector('.ground2');
 
-
-
-  
- 
-  
- 
+// pin the .ground2 element with ScrollTrigger
+gsap.registerPlugin(ScrollTrigger);
+ScrollTrigger.create({
+  trigger: '#scene1', // start pinning when the top of #scene1 reaches the top of the viewport
+  start: "top 100%",
+  endTrigger: "bottom", // stop pinning when the bottom of #scene1 reaches the bottom of the viewport
+  pin: ".ground2", // pin the .ground2 element
+  pinSpacing: false // use the top and bottom boundaries of #scene1 for pinning
+});
