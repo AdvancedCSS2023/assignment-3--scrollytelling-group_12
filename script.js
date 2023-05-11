@@ -256,7 +256,7 @@ gsap.to("#birds1", {
 
 
    gsap.to("#scene1", {
-    background: "linear-gradient(to bottom, #a8c0ff 0%, #FF5733 10%, #1b1c20 30%, #FFA500 40%, #a8c0ff 50%, #FF5733 60%, #1b1c20 80%, #FFA500 90%, #FF5733 100%",
+    background: "linear-gradient(to bottom, #a8c0ff 0%, #FF5733 10%, #1b1c20 20%, #FFA500 40%, #a8c0ff 50%, #FF5733 60%, #1b1c20 80%, #FFA500 90%, #FF5733 100%",
     duration: 3,
     scrollTrigger: {
       trigger: "body",
@@ -340,7 +340,30 @@ ScrollTrigger.create({
     }
 });
 
-tlSun.to(".sun", {x:1050, y:-850, duration: 4})
-.to(".sun", {x: 2500, y: 0, duration: 4})
+tlSun.to(".sun", {x:1050, y:-850, duration: 3})
+.to(".sun", {x: 2500, y: 0, duration: 3})
+
+
+// Pinner sola
+ScrollTrigger.create ({
+  trigger:".sun1",
+  start: "top 100%",
+  end: "+=3000",
+  pin:".sun",
+  markers: true 
+})
+
+// animasjon for sola
+const tlSun1 = gsap.timeline({
+  scrollTrigger: {
+      trigger: ".sun1",
+      //markers: true,
+      start: "top",
+      end: "+=1500",
+      scrub: true,
+  }
+});
+
+tlSun1.to(".sun1", {x: 2500, y: 3000, duration: 5})
 
 
