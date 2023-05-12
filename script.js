@@ -231,12 +231,10 @@ gsap.utils.toArray("span").forEach((span) => {
 gsap.to("#birds1", {
     x: 2000,
     y: -500,
-   duration: 5,
+   duration: 2,
     scrollTrigger: {
-    trigger: "#space",
-    start: "bottom 90%",
-     end: "top 60%",
-      scrub: 5,
+    trigger: ".birds",
+    start: "top 100%"
     
    },
    });
@@ -256,18 +254,18 @@ gsap.to("#birds1", {
 
 
    gsap.to("#scene1", {
-    background: "linear-gradient(to bottom, #a8c0ff 0%, #FF5733 10%, #1b1c20 20%, #FFA500 40%, #a8c0ff 50%, #FF5733 60%, #1b1c20 80%, #FFA500 90%, #FF5733 100%",
+    background: "linear-gradient(to bottom, #a8c0ff, #FF5733 10%, #1b1c20 20%, #FFA500 40%, #a8c0ff 50%, #FF5733 60%, #1b1c20 80%, #FFA500 90%, #FF5733 100%",
     duration: 3,
     scrollTrigger: {
-      trigger: "body",
-      start: "top top",
-      end: "bottom bottom",
+      trigger: "#scene1",
+      start: "top 100%",
       scrub: 1
     }
   });
 
 
   /*
+  "linear-gradient(to bottom, #a8c0ff 0%, #FF5733 10%, #1b1c20 20%, #FFA500 40%, #a8c0ff 50%, #FF5733 60%, #1b1c20 80%, #FFA500 90%, #FF5733 100%",
    background: "linear-gradient(to bottom, #a8c0ff 0%, #FF5733 10%, #1b1c20 20%, #FFA500 30%, #a8c0ff 40%, #FF5733 50%, #1b1c20 60%, #FFA500 70%, #FF5733 80%, #1b1c20 90%, #FFA500 100%",
    */
 
@@ -296,26 +294,24 @@ ScrollTrigger.create({
 
 
 
-
+/*
   gsap.to(".text-container", {
-    duration: 8,
     scrollTrigger: {
-      trigger: ".punkt1",
-      start: "top 100%",
+      trigger: ".text-container",
+      start: "top",
     end: "bottom",
-  scrub: 4,
-      toggleActions: "restart none none none",
-  
       pin: ".text-container",
+    },
+    },
+  );
+*/
 
-      pinSpacing: true,
-     markers: {
-        startColor: "purple",
-     endColor: "fuchsia",
-     fontSize: "3rem",
-    },
-    },
-  });
+  ScrollTrigger.create ({
+    trigger:".text-container",
+    start: "top",
+    end: "+=5000",
+    pin:".text.container"
+,  })
 
 
 
@@ -323,7 +319,7 @@ ScrollTrigger.create({
   ScrollTrigger.create ({
     trigger:".sun",
     start: "top 100%",
-    end: "+=3000",
+    end: "+=12000",
     pin:".sun",
     markers: true 
  })
@@ -335,15 +331,23 @@ ScrollTrigger.create({
         trigger: ".sun",
         //markers: true,
         start: "top 100%",
-        end: "+=3000",
+        end: "+=12000",
         scrub: true,
     }
 });
 
-tlSun.to(".sun", {x:1050, y:-850, duration: 3})
-.to(".sun", {x: 2500, y: 0, duration: 3})
+tlSun.to(".sun", {x:1050, y:-850, duration: 50})
+.to(".sun", {x: 2500, y: 0, duration: 50})
 
 
+
+
+
+
+
+
+
+/*
 // Pinner sola
 ScrollTrigger.create ({
   trigger:".sun1",
@@ -353,6 +357,10 @@ ScrollTrigger.create ({
   markers: true 
 })
 
+
+
+
+/*
 // animasjon for sola
 const tlSun1 = gsap.timeline({
   scrollTrigger: {
@@ -365,5 +373,5 @@ const tlSun1 = gsap.timeline({
 });
 
 tlSun1.to(".sun1", {x: 2500, y: 3000, duration: 5})
-
+*/
 
