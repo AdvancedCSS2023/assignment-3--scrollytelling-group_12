@@ -1,20 +1,3 @@
-@-webkit-keyframes rave {
-  0% {
-    fill: #ff00ff;
-  }
-  25% {
-    fill: #00ff00;
-  }
-  50% {
-    fill: #ffff00;
-  }
-  75% {
-    fill: #ff0000;
-  }
-  100% {
-    fill: #ff00ff;
-  }
-}
 @keyframes rave {
   0% {
     fill: #ff00ff;
@@ -32,17 +15,6 @@
     fill: #ff00ff;
   }
 }
-@-webkit-keyframes wiggle {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
 @keyframes wiggle {
   0% {
     transform: translateY(0);
@@ -52,17 +24,6 @@
   }
   100% {
     transform: translateY(0);
-  }
-}
-@-webkit-keyframes float-rotate {
-  0% {
-    transform: translate(0, 0) rotate(0deg);
-  }
-  50% {
-    transform: translate(20%, 20%) rotate(180deg);
-  }
-  100% {
-    transform: translate(0, 0) rotate(360deg);
   }
 }
 @keyframes float-rotate {
@@ -76,34 +37,12 @@
     transform: translate(0, 0) rotate(360deg);
   }
 }
-@-webkit-keyframes water-drop1 {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 @keyframes water-drop1 {
   0% {
     opacity: 1;
   }
   50% {
     opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@-webkit-keyframes water-drop2 {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
   }
   100% {
     opacity: 0;
@@ -120,17 +59,6 @@
     opacity: 0;
   }
 }
-@-webkit-keyframes water-drop3 {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes water-drop3 {
   0% {
     opacity: 0;
@@ -142,14 +70,6 @@
     opacity: 1;
   }
 }
-@-webkit-keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -158,29 +78,7 @@
     transform: rotate(360deg);
   }
 }
-@-webkit-keyframes look-around {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(3px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
 @keyframes look-around {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(3px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@-webkit-keyframes hair-animation {
   0% {
     transform: translateX(0);
   }
@@ -202,17 +100,6 @@
     transform: translateX(0);
   }
 }
-@-webkit-keyframes tilt-head {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
 @keyframes tilt-head {
   0% {
     transform: rotate(0deg);
@@ -222,17 +109,6 @@
   }
   100% {
     transform: rotate(0deg);
-  }
-}
-@-webkit-keyframes bobbing {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-8px);
-  }
-  100% {
-    transform: translateY(0);
   }
 }
 @keyframes bobbing {
@@ -246,17 +122,6 @@
     transform: translateY(0);
   }
 }
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 1;
-  }
-}
 @keyframes blink {
   0% {
     opacity: 1;
@@ -268,28 +133,12 @@
     opacity: 1;
   }
 }
-@-webkit-keyframes MoveUpDown {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-50px);
-  }
-}
 @keyframes MoveUpDown {
   0%, 100% {
     transform: translateY(0);
   }
   50% {
     transform: translateY(-50px);
-  }
-}
-@-webkit-keyframes moveClouds {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-1100%);
   }
 }
 @keyframes moveClouds {

@@ -1,43 +1,33 @@
 @media (prefers-reduced-motion: reduce) {
   #kid-face {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   #school-face {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   #door {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   #left-big-window {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   #right-big-window {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .sun3 {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .sun5 {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .drop {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .drop2 {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .drop3 {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
 }
 @media screen and (max-width: 768px) {
