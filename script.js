@@ -269,7 +269,7 @@ gsap.to(".scene1_ground2", {
   duration: 1,
   scrollTrigger: {
     trigger: ".scene1_ground2",
-    start: "bottom bottom",
+    start: "top top ",
     endTrigger: ".scene1", // change to end at the end of the container
     end: "bottom bottom",
     scrub: 1,
