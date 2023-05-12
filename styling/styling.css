@@ -570,7 +570,6 @@ span {
   margin: 0;
   height: 2000vh;
   background: #a8c0ff;
-  border: solid red;
 }
 
 /* Plasser ground nederst i sky og add pin fra top scene 1 til bottom */
@@ -964,7 +963,7 @@ button:hover {
 .scene3 {
   height: 100vh;
   width: 100%;
-  background: skyblue;
+  background: #a8c0ff;
   position: relative;
 }
 
@@ -1003,7 +1002,7 @@ button:hover {
 .scene5 {
   height: 100vh;
   width: 100%;
-  background: skyblue;
+  background: #a8c0ff;
   z-index: -1000;
 } /*# sourceMappingURL=styling.css.map */
 #kid-eyes,
