@@ -275,16 +275,17 @@ span {
   padding: 0;
 }
 
-/*
-#scene1 {
+
+.scene1 {
   margin:0;
-  height:1500vh;
+  height:300vh;
   background: #a8c0ff;
   border: solid red;
+  position: relative;
 }
 
 
-.ground {
+/*.ground {
   width: 200vh;
   height: 30vh;
   top: 5%;
@@ -294,23 +295,10 @@ span {
   padding: 0;
 }
 */
-#scene1 {
-  margin: 0;
-  height: 2000vh;
-  background: #a8c0ff;
-  border: solid red;
-}
+
 
 /* Plasser ground nederst i sky og add pin fra top scene 1 til bottom */
-.ground {
-  width: 200vh;
-  height: 30vh;
-  top: 3.2%;
-  position: relative;
-  z-index: 1;
-  background: #ddb966;
-  padding: 0;
-}
+
 
 .crack {
   position: absolute;
@@ -961,11 +949,6 @@ button:hover {
   position: absolute;
 }
 
-#scene4 {
-  height: 100vh;
-  width: 100%;
-  background: yellow;
-}
 
 .scene5 {
   height: 100vh;
