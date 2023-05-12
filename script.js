@@ -3,27 +3,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
  ScrollTrigger.create ({
     trigger:"#space",
     start: "top 20%",
@@ -38,7 +17,7 @@ gsap.to("#movieboard", {
   scrollTrigger: {
   trigger: "#space",
   start: "bottom 70%",
-   end: "bottom bottom",
+   end: "bottom 100%",
 
     scrub: 3,
    toggleActions: "none none none none",
@@ -200,6 +179,12 @@ gsap.to("#birds1", {
 
 tlSun.to(".sun", {x:1050, y:-850, duration: 50})
 .to(".sun", {x: 2500, y: 0, duration: 50})
+
+
+
+
+
+
 
 
 

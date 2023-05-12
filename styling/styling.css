@@ -237,12 +237,22 @@ p {
 
 #movieboard-container {
   position: relative;
-  bottom: 270px;
-  left: 70px;
+  bottom: 44%;
+  left: 13%;
   background: white;
-  width: 77%;
+  width: 75%;
   height: 40%;
   z-index: 2;
+}
+
+#UN_GIF {
+  max-width: 50%;
+  max-height: 50%;
+  position: absolute;
+  margin: auto;
+  left: 37%;
+  top: 50%;
+  border-radius: 7%;
 }
 
 #headline {
@@ -250,6 +260,7 @@ p {
   text-align: center;
   padding: 3%;
   color: white;
+  font-size: 25px;
 }
 
 #headline2 {
@@ -257,6 +268,7 @@ p {
   text-align: center;
   padding: 2%;
   color: white;
+  font-size: 20px;
 }
 
 span {
@@ -453,6 +465,14 @@ span {
   max-height: 30%;
   bottom: 30%;
   left: 65%;
+}
+
+#KOFItest {
+  position: absolute;
+  opacity: 1;
+  bottom: 95%;
+  left: 23%;
+  max-height: 70%;
 }
 
 /* Petter */
