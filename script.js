@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
  ScrollTrigger.create ({
     trigger:"#space",
     start: "top 20%",
-    end: "bottom 80%",
+    end: "bottom 30%",
     pin:"#movieboard"
  })
 
@@ -16,8 +16,8 @@ gsap.to("#movieboard", {
  duration: 5,
   scrollTrigger: {
   trigger: "#space",
-  start: "bottom 70%",
-   end: "bottom 100%",
+  start: "center",
+   end: "bottom 70%",
 
     scrub: 3,
    toggleActions: "none none none none",
@@ -79,7 +79,7 @@ gsap.utils.toArray("span").forEach((span) => {
 
 gsap.to("#birds1", {
     x: 2000,
-    y: -500,
+    y: -1000,
    duration: 2,
     scrollTrigger: {
     trigger: ".birds",

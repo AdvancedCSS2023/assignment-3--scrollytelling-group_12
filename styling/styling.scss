@@ -179,12 +179,58 @@ span {
   justify-content: center;
 }
 
+
+
+.opening__clouds{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-around;
+ 
+
+}
+
+[class^="opening__cloud-"] {
+  position: relative;
+  max-width: 30%;
+  max-height: 20%;
+  bottom: 0;
+  animation: wiggle 2s linear infinite;
+  margin: 1%;
+}
+
+#UN__Fact{
+position: relative;
+max-width: 40%;
+max-height: 20%;
+top: 5%;
+padding: 0;
+left: 30%;
+z-index: 0;
+}
+
+.scene1_ground2 {
+  width: 200vh;
+  height: 30vh;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  background: #ddb966;
+  padding: 0;
+}
+
+
+
+
+
 #birds1 {
   max-width: 35%;
   max-height: 35%;
   transform: rotate(0.5turn);
   transform: translate(-600px, 0px);
   z-index: -1;
+  bottom: 20%;
 }
 
 .sky {
@@ -257,7 +303,7 @@ z-index: 2;
 #hut {
   position: absolute;
   bottom: 50%;
-  left: 10%;
+  left: 0%;
   max-width: 500px;
   max-height: 500px;
 }
@@ -287,7 +333,7 @@ z-index: 2;
   position: absolute;
   opacity: 1;
   bottom: 95%;
-  left: 23%;
+  left: 12%;
   max-height: 70%;
 }
 /* Petter */
