@@ -255,17 +255,7 @@ gsap.to("#birds1", {
 
 
 
-   gsap.to(".scene1", {
-    background: "linear-gradient(to bottom, #a8c0ff 0%, #FF5733 10%, #1b1c20 20%, #FFA500 40%, #a8c0ff 50%, #FF5733 60%, #1b1c20 80%, #FFA500 90%, #FF5733 100%",
-    duration: 3,
-    scrollTrigger: {
-      trigger: "body",
-      start: "top top",
-      end: "bottom bottom",
-      scrub: 1
-    }
-  });
-
+   
 
   /*
    background: "linear-gradient(to bottom, #a8c0ff 0%, #FF5733 10%, #1b1c20 20%, #FFA500 30%, #a8c0ff 40%, #FF5733 50%, #1b1c20 60%, #FFA500 70%, #FF5733 80%, #1b1c20 90%, #FFA500 100%",
@@ -275,16 +265,16 @@ gsap.to("#birds1", {
 
  
 //scroll scene1
-gsap.to(".ground2", {
-  duration: 8,
+gsap.to(".scene1_ground2", {
+  duration: 1,
   scrollTrigger: {
-    trigger: ".ground2",
+    trigger: ".scene1_ground2",
     start: "bottom bottom",
     endTrigger: ".scene1", // change to end at the end of the container
-    end: "top top",
+    end: "bottom bottom",
     scrub: 1,
     toggleActions: "restart none none none",
-    pin: ".ground2",
+    pin: ".scene1_ground2",
     pinSpacing: true,
   },
 });
@@ -375,7 +365,7 @@ gsap.to(".scene2_ground", {
     pinSpacing: true,
   },
 });
-
+  
 //scroll scene4
 gsap.to(".scene4_ground", {
 duration: 8,
