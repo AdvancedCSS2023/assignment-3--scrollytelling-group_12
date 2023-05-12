@@ -271,12 +271,7 @@ gsap.to("#birds1", {
    background: "linear-gradient(to bottom, #a8c0ff 0%, #FF5733 10%, #1b1c20 20%, #FFA500 30%, #a8c0ff 40%, #FF5733 50%, #1b1c20 60%, #FFA500 70%, #FF5733 80%, #1b1c20 90%, #FFA500 100%",
    */
 
-  ScrollTrigger.create ({
-    trigger:".scene1",
-    start: "top",
-    end: "bottom bottom",
-    pin:".ground2"
- })
+  
 
  
 //scroll scene1
@@ -293,13 +288,6 @@ gsap.to(".ground2", {
     pinSpacing: true,
   },
 });
-
-
-
-
-
-
-
 
 
 
