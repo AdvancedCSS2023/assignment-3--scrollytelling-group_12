@@ -825,13 +825,13 @@ animation: MoveUpDown 2s ease-in-out infinite;
   position: relative;
   background: #a8c0ff;
 }
-.scene4_sky {
+.scene4__sky {
   height: 70vh;
   width: 100%;
 }
 
 
-.scene4_ground {
+.scene4__ground {
 width: 100vw;
 height: 30vh;
 position: absolute;
@@ -840,14 +840,14 @@ background: #ddb966;
 padding: 0;
 }
 
-#scene4_airport {
+#scene4__ground-airport {
   position:absolute;
   max-width: 150%;
   max-height: 150%;
   bottom: 80%;
 }
 
-#scene4_airplane {
+#scene4__ground-airplane {
   position: absolute;
   max-width: 40%;
   max-height: 40%;
@@ -858,7 +858,7 @@ padding: 0;
   
 }
 
-#scene4_runway {
+#scene4__ground-runway {
   position: absolute;
   max-width: 200%;
   max-height: 200%;
