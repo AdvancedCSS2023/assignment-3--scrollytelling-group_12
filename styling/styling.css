@@ -803,9 +803,6 @@ p {
   z-index: 2;
 }
 
-.scene3__text {
-  opacity: 0;
-}
 
 #door,
 #left-big-window,
@@ -900,10 +897,6 @@ button:hover {
   z-index: 3;
 }
 
-.music {
-  position: absolute;
-  transform: translate(300px, 200px);
-}
 
 .kid__kofi {
   position: absolute;
