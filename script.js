@@ -128,6 +128,10 @@ gsap.to("#birds1", {
 
 
 
+
+
+
+
  ScrollTrigger.create({
   trigger: '.scene1', 
   start: "top 100%",
