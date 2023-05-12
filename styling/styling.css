@@ -826,7 +826,7 @@ p {
 .tree2 {
   transform: translate(50px, 440px);
   position: absolute;
-  z-index: 2;
+  z-index: 2; 
 }
 
 .scene3__text {
