@@ -103,7 +103,7 @@ gsap.to("#birds1", {
 
 
    gsap.to(".scene1", {
-    background: "linear-gradient(to bottom, #a8c0ff, #FF5733 10%, #1b1c20 20%, #FFA500 40%, #a8c0ff 50%, #FF5733 60%, #1b1c20 80%, #FFA500 90%, #FF5733 100%",
+    background: "linear-gradient(to bottom, #1b1c20, #a8c0ff 20%, #FFA500 40%, #FF5733 75%, #1b1c20 100%",
     duration: 3,
     scrollTrigger: {
       trigger: ".scene1",
@@ -112,7 +112,7 @@ gsap.to("#birds1", {
     }
   });
 
-
+  
  
 
   ScrollTrigger.create ({
@@ -160,7 +160,7 @@ gsap.to("#birds1", {
   ScrollTrigger.create ({
     trigger:".sun",
     start: "top 100%",
-    end: "+=6000",
+    end: "+=12000",
     pin:".sun",
     markers: true 
  })
@@ -172,7 +172,7 @@ gsap.to("#birds1", {
         trigger: ".sun",
         //markers: true,
         start: "top 100%",
-        end: "+=7500",
+        end: "+=18000",
         scrub: true,
     }
 });
