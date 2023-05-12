@@ -343,6 +343,22 @@
             animation: none !important;
   }
 }
+@media screen and (max-width: 768px) {
+  .school {
+    position: absolute;
+    transform: translate(50%, 5em);
+    width: 30px;
+    height: auto;
+  }
+  .kofi__school2 {
+    width: 66px; /* 50% of the original width */
+    height: 214px; /* 50% of the original height */
+    transform: translate(2em, 10em); /* adjust the position as needed */
+  }
+  .scene3 {
+    height: 50vh;
+  }
+}
 body {
   margin: 0;
   overflow-x: hidden;
@@ -764,6 +780,16 @@ p {
   position: absolute;
 }
 
+.scene3__text1 {
+  position: absolute;
+  transform: translate(70vw, 5vw);
+}
+
+.scene3__text2 {
+  position: absolute;
+  transform: translate(35vw, 1vw);
+}
+
 .scene5__text > a {
   display: inline-block;
   padding: 10px 20px;
@@ -926,7 +952,7 @@ button:hover {
 .scene3 {
   height: 100vh;
   width: 100%;
-  background: skyblue;
+  background: var(s);
   position: relative;
 }
 
