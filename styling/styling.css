@@ -549,13 +549,6 @@ span {
   transform: translateX(300px);
 }
 
-
-
-
-#kofi-kid{
-  position: relative;
-}
-
 #hut {
   position: absolute;
   bottom: 50%;
@@ -668,7 +661,9 @@ button {
   z-index: 2;
 }
 
-
+.scene3__text {
+  opacity: 0;
+}
 
 @-webkit-keyframes rave {
   0% {
@@ -920,19 +915,8 @@ button:hover {
 .scene3 {
   height: 100vh;
   width: 100%;
-  background: #a8c0ff;
+  background: skyblue;
   position: relative;
-}
-
-.scene3__text2 {
-  position: absolute;
-  left: -10%;
-}
-
-.scene3__text1 {
-  position: absolute;
-  left: 22%;
-  top: 40%;
 }
 
 .ground3 {
@@ -970,7 +954,7 @@ button:hover {
 .scene5 {
   height: 100vh;
   width: 100%;
-  background: #a8c0ff;;
+  background: skyblue;
   z-index: -1000;
 } /*# sourceMappingURL=styling.css.map */
 @-webkit-keyframes look-around {
@@ -1169,7 +1153,7 @@ button:hover {
   margin: 0;
 }
 
-.scene2 {
+#scene2 {
   margin: 0;
   height: 300vh;
   background: #a8c0ff;
