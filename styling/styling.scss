@@ -710,14 +710,14 @@ position: relative;
 }
 
 
-.scene2_sky {
+.scene2__sky {
   height: 70vh;
   width: 100%;
   background: #a8c0ff;
 }
 
 
-.scene2_ground {
+.scene2__ground {
 width: 100vw;
 height: 30vh;
 position: absolute;
@@ -726,14 +726,14 @@ background: #ddb966;
 padding: 0;
 }
 
-#scene2_airport {
+#scene2__ground-airport {
   position:absolute;
   max-width: 150%;
   max-height: 150%;
   bottom: 80%;
 }
 
-#scene2_airplane {
+#scene2__ground-airplane {
   position: absolute;
   max-width: 40%;
   max-height: 40%;
@@ -744,7 +744,7 @@ padding: 0;
   
 }
 
-#scene2_runway {
+#scene2__ground-runway {
   position: absolute;
   max-width: 200%;
   max-height: 200%;
@@ -753,13 +753,13 @@ padding: 0;
   top: -50%;
 }
 
-#scene2_sun {
+#scene2__ground-sun {
   position: absolute;
   top: -220%;
   left: 10%;
 }
 
-.scene2_clouds1 {
+.scene2__ground-clouds1 {
   position: absolute;
   max-width: 40%;
   max-height: 30%;
@@ -768,7 +768,7 @@ padding: 0;
   z-index: +1;
 }
 
-.scene2_clouds2 {
+.scene2__ground-clouds2 {
   position: absolute;
   max-width: 40%;
   max-height: 30%;
@@ -776,7 +776,7 @@ padding: 0;
   left: 15%;
 }
 
-.scene2_part2 {
+.scene2__part2 {
   width: 100%;
   height: 200vh;
   background: #a8c0ff;
@@ -784,7 +784,7 @@ padding: 0;
   overflow: hidden;
 } 
 
-#scene2_part2-plane {
+#scene2__part2-plane {
 position: absolute;
  max-width: 40%;
  max-height: 40%;
@@ -794,7 +794,7 @@ animation: MoveUpDown 2s ease-in-out infinite;
 } 
 
 
-[class^="scene2_cloud-"] {
+[class^="scene2__cloud-"] {
   position: absolute;
   max-width: 30%;
   max-height: 20%;
@@ -803,15 +803,15 @@ animation: MoveUpDown 2s ease-in-out infinite;
   animation: moveClouds 5s linear infinite;
 }
 
-.scene2_cloud-big {
+.scene2__cloud-big {
   animation-delay: 1s;
 }
 
-.scene2_cloud-medium {
+.scene2__cloud-medium {
   animation-delay: 2s;
 }
 
-.scene2_cloud-small {
+.scene2__cloud-small {
   animation-delay: 3s;
 }
 
