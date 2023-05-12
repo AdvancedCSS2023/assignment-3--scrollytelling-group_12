@@ -1,21 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
-@-webkit-keyframes rave {
-  0% {
-    fill: #ff00ff;
-  }
-  25% {
-    fill: #00ff00;
-  }
-  50% {
-    fill: #ffff00;
-  }
-  75% {
-    fill: #ff0000;
-  }
-  100% {
-    fill: #ff00ff;
-  }
-}
 @keyframes rave {
   0% {
     fill: #ff00ff;
@@ -33,17 +16,6 @@
     fill: #ff00ff;
   }
 }
-@-webkit-keyframes wiggle {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
 @keyframes wiggle {
   0% {
     transform: translateY(0);
@@ -53,17 +25,6 @@
   }
   100% {
     transform: translateY(0);
-  }
-}
-@-webkit-keyframes float-rotate {
-  0% {
-    transform: translate(0, 0) rotate(0deg);
-  }
-  50% {
-    transform: translate(20%, 20%) rotate(180deg);
-  }
-  100% {
-    transform: translate(0, 0) rotate(360deg);
   }
 }
 @keyframes float-rotate {
@@ -77,34 +38,12 @@
     transform: translate(0, 0) rotate(360deg);
   }
 }
-@-webkit-keyframes water-drop1 {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 @keyframes water-drop1 {
   0% {
     opacity: 1;
   }
   50% {
     opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@-webkit-keyframes water-drop2 {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
   }
   100% {
     opacity: 0;
@@ -121,17 +60,6 @@
     opacity: 0;
   }
 }
-@-webkit-keyframes water-drop3 {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes water-drop3 {
   0% {
     opacity: 0;
@@ -143,14 +71,6 @@
     opacity: 1;
   }
 }
-@-webkit-keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -159,29 +79,7 @@
     transform: rotate(360deg);
   }
 }
-@-webkit-keyframes look-around {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(3px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
 @keyframes look-around {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(3px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@-webkit-keyframes hair-animation {
   0% {
     transform: translateX(0);
   }
@@ -203,17 +101,6 @@
     transform: translateX(0);
   }
 }
-@-webkit-keyframes tilt-head {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
 @keyframes tilt-head {
   0% {
     transform: rotate(0deg);
@@ -223,17 +110,6 @@
   }
   100% {
     transform: rotate(0deg);
-  }
-}
-@-webkit-keyframes bobbing {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-8px);
-  }
-  100% {
-    transform: translateY(0);
   }
 }
 @keyframes bobbing {
@@ -247,17 +123,6 @@
     transform: translateY(0);
   }
 }
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 1;
-  }
-}
 @keyframes blink {
   0% {
     opacity: 1;
@@ -269,28 +134,12 @@
     opacity: 1;
   }
 }
-@-webkit-keyframes MoveUpDown {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-50px);
-  }
-}
 @keyframes MoveUpDown {
   0%, 100% {
     transform: translateY(0);
   }
   50% {
     transform: translateY(-50px);
-  }
-}
-@-webkit-keyframes moveClouds {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-1100%);
   }
 }
 @keyframes moveClouds {
@@ -303,44 +152,34 @@
 }
 @media (prefers-reduced-motion: reduce) {
   #kid-face {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   #school-face {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   #door {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   #left-big-window {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   #right-big-window {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .sun3 {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .sun5 {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .drop {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .drop2 {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .drop3 {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
 }
 @media screen and (max-width: 768px) {
@@ -467,8 +306,7 @@ span {
   top: 70%; /* set the top property to 0 */
   left: 60%;
   z-index: 0;
-  -webkit-animation: wiggle 0.5s infinite;
-          animation: wiggle 0.5s infinite;
+  animation: wiggle 0.5s infinite;
 }
 
 #astronaut {
@@ -482,8 +320,7 @@ span {
   transform: translate(-50%, -50%);
   border-radius: 50%;
   transform-origin: 50% 150%;
-  -webkit-animation: float-rotate 10s linear infinite;
-          animation: float-rotate 10s linear infinite;
+  animation: float-rotate 10s linear infinite;
 }
 
 #astroid {
@@ -597,56 +434,49 @@ span {
   bottom: 50px;
   left: 10%;
   transform: rotate(-20deg);
-  -webkit-animation: crack-1 3s ease-in-out infinite;
-          animation: crack-1 3s ease-in-out infinite;
+  animation: crack-1 3s ease-in-out infinite;
 }
 
 .crack:nth-child(2) {
   bottom: 80px;
   left: 20%;
   transform: rotate(-30deg);
-  -webkit-animation: crack-2 3s ease-in-out infinite;
-          animation: crack-2 3s ease-in-out infinite;
+  animation: crack-2 3s ease-in-out infinite;
 }
 
 .crack:nth-child(3) {
   bottom: 120px;
   left: 30%;
   transform: rotate(-40deg);
-  -webkit-animation: crack-3 3s ease-in-out infinite;
-          animation: crack-3 3s ease-in-out infinite;
+  animation: crack-3 3s ease-in-out infinite;
 }
 
 .crack:nth-child(4) {
   bottom: 90px;
   left: 40%;
   transform: rotate(-20deg);
-  -webkit-animation: crack-4 3s ease-in-out infinite;
-          animation: crack-4 3s ease-in-out infinite;
+  animation: crack-4 3s ease-in-out infinite;
 }
 
 .crack:nth-child(5) {
   bottom: 140px;
   left: 50%;
   transform: rotate(-30deg);
-  -webkit-animation: crack-5 3s ease-in-out infinite;
-          animation: crack-5 3s ease-in-out infinite;
+  animation: crack-5 3s ease-in-out infinite;
 }
 
 .crack:nth-child(6) {
   bottom: 120px;
   left: 60%;
   transform: rotate(-40deg);
-  -webkit-animation: crack-6 3s ease-in-out infinite;
-          animation: crack-6 3s ease-in-out infinite;
+  animation: crack-6 3s ease-in-out infinite;
 }
 
 .crack:nth-child(7) {
   bottom: 70px;
   left: 70%;
   transform: rotate(-20deg);
-  -webkit-animation: crack-7 3s ease-in-out infinite;
-          animation: crack-7 3s ease-in-out infinite;
+  animation: crack-7 3s ease-in-out infinite;
 }
 
 .crack2 {
@@ -658,12 +488,9 @@ span {
   width: 100px;
   opacity: 0.5;
   position: absolute;
-  -webkit-animation-name: zigzag;
-          animation-name: zigzag;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-name: zigzag;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
 .text-container {
@@ -836,8 +663,7 @@ p {
 #door,
 #left-big-window,
 #right-big-window {
-  -webkit-animation: rave 1s infinite;
-          animation: rave 1s infinite;
+  animation: rave 1s infinite;
 }
 
 .pump {
@@ -848,24 +674,21 @@ p {
 
 .drop {
   transform: translate(773px, 640px);
-  -webkit-animation: water-drop1 1s infinite;
-          animation: water-drop1 1s infinite;
+  animation: water-drop1 1s infinite;
   position: absolute;
   z-index: 2;
 }
 
 .drop2 {
   transform: translate(773px, 690px);
-  -webkit-animation: water-drop2 1s infinite;
-          animation: water-drop2 1s infinite;
+  animation: water-drop2 1s infinite;
   position: absolute;
   z-index: 2;
 }
 
 .drop3 {
   transform: translate(773px, 740px);
-  -webkit-animation: water-drop3 1s infinite;
-          animation: water-drop3 1s infinite;
+  animation: water-drop3 1s infinite;
   position: absolute;
   z-index: 2;
 }
@@ -910,8 +733,7 @@ button:hover {
 
 .sun5 {
   position: absolute;
-  -webkit-animation: spin 2s linear infinite;
-          animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
 }
 
 .house1 {
@@ -1005,27 +827,23 @@ button:hover {
   width: 100%;
   background: skyblue;
   z-index: -1000;
-} /*# sourceMappingURL=styling.css.map */
+} 
 #kid-eyes,
 #adult-eyes {
-  -webkit-animation: look-around 3s infinite;
-          animation: look-around 3s infinite;
+  animation: look-around 3s infinite;
 }
 
 #kid-face, #school-face {
-  -webkit-animation: bobbing 2s ease-in-out infinite;
-          animation: bobbing 2s ease-in-out infinite;
+  animation: bobbing 2s ease-in-out infinite;
   transform-origin: bottom center;
 }
 
 #school-hair {
-  -webkit-animation: look-around 3s infinite;
-          animation: look-around 3s infinite;
+  animation: look-around 3s infinite;
 }
 
 #RF-blink {
-  -webkit-animation: blink 3s ease-in-out infinite;
-          animation: blink 3s ease-in-out infinite;
+  animation: blink 3s ease-in-out infinite;
 }
 
 .ground {
@@ -1044,7 +862,7 @@ button:hover {
   margin: 0;
 }
 
-#scene2 {
+.scene2 {
   margin: 0;
   height: 300vh;
   background: #a8c0ff;
@@ -1129,8 +947,7 @@ button:hover {
   max-height: 40%;
   top: 10%;
   left: 30%;
-  -webkit-animation: MoveUpDown 2s ease-in-out infinite;
-          animation: MoveUpDown 2s ease-in-out infinite;
+  animation: MoveUpDown 2s ease-in-out infinite;
 }
 
 [class^=scene2_cloud-] {
@@ -1139,23 +956,19 @@ button:hover {
   max-height: 20%;
   top: 30%;
   right: -20%;
-  -webkit-animation: moveClouds 5s linear infinite;
-          animation: moveClouds 5s linear infinite;
+  animation: moveClouds 5s linear infinite;
 }
 
 .scene2_cloud-big {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .scene2_cloud-medium {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  animation-delay: 2s;
 }
 
 .scene2_cloud-small {
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  animation-delay: 3s;
 }
 
 .scene4 {
@@ -1205,4 +1018,4 @@ button:hover {
   top: -50%;
 }
 
-/*# sourceMappingURL=styling.css.map *//*# sourceMappingURL=styling.css.map */
+/*# sourceMappingURL=styling.css.map */
