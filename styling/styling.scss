@@ -217,7 +217,7 @@ span {
 #scene1 {
   margin: 0;
   height: 2000vh;
-  background: #a8c0ff;
+  background: $sky-color-blue;
   border: solid red;
 }
 
@@ -614,7 +614,7 @@ button:hover {
 .scene3 {
   height: 100vh;
   width: 100%;
-  background: var(s);
+  background: $sky-color-blue;
   position: relative;
 }
 
@@ -644,16 +644,12 @@ button:hover {
   position: absolute;
 }
 
-#scene4 {
-  height: 100vh;
-  width: 100%;
-  background: yellow;
-}
+
 
 .scene5 {
   height: 100vh;
   width: 100%;
-  background: skyblue;
+  background: $sky-color-blue;
   z-index: -1000;
 } /*# sourceMappingURL=styling.css.map */
 
@@ -705,7 +701,7 @@ button:hover {
 #scene2 {
 margin:0;
 height: 300vh; 
-background: #a8c0ff;
+background: $sky-color-blue;
 position: relative;
 }
 
@@ -713,7 +709,7 @@ position: relative;
 .scene2_sky {
   height: 70vh;
   width: 100%;
-  background: #a8c0ff;
+  background: $sky-color-blue;
 }
 
 
@@ -823,7 +819,7 @@ animation: MoveUpDown 2s ease-in-out infinite;
   height: 300vh;
   width: 100%;
   position: relative;
-  background: #a8c0ff;
+  background: $sky-color-blue;
 }
 .scene4_sky {
   height: 70vh;
