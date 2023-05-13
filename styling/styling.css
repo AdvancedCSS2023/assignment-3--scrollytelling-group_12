@@ -716,9 +716,9 @@ p {
   z-index: 2;
 }
 
-#door,
-#left-big-window,
-#right-big-window {
+.door,
+.left-big-window,
+.right-big-window {
   animation: rave 1s infinite;
 }
 
