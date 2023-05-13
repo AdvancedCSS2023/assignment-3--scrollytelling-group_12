@@ -157,6 +157,9 @@ span {
 
 
 
+
+
+
 .curtains {
   display: flex;
   flex-direction: row;
@@ -204,32 +207,51 @@ span {
 
 #UN__Fact{
 position: relative;
-max-width: 40%;
-max-height: 20%;
+max-width: 30%;
+max-height: 15%;
 top: 5%;
 padding: 0;
-left: 30%;
+left: 35%;
 z-index: 0;
 }
 
-#UN__GOAL {
+#UN__Fact2{
   position: relative;
-  max-width: 15%;
+  max-width: 40%;
   max-height: 20%;
+  top: 8%;
+  left: 25%;
   padding: 0;
-  left: 45%;
   z-index: 0;
-}
+  }
 
-#UN__GOAL__IN {
-  position: relative;
-  max-width: 15%;
-  max-height: 20%;
-  padding: 0;
-  left: 30%;
-  top:2%;
-  z-index: 0;
-}
+
+  .UN-Goal-Column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 100vh;
+    margin-top: 200vh;
+  }
+  
+  #UN__GOAL {
+    max-width: 15%;
+    max-height: 20%;
+    padding: 0;
+    z-index: 0;
+    content:url(/images/UNGoal6.png);
+  }
+  
+  #UN__GOAL__IN {
+    max-width: 15%;
+    max-height: 20%;
+    padding: 0;
+    z-index: 0;
+    content:url(/images/UNgoal6Inverted.png);
+    z-index: 2;
+  }
 
 
 .scene1_ground2 {
@@ -303,6 +325,11 @@ top: 70%;
 }
 
 
+
+
+
+
+
 .text-container {
   margin: auto;
   position: relative;
@@ -338,6 +365,7 @@ z-index: 2;
   right: 30%;
   z-index: 0;
   top: 20%;
+  
 }
 
 .sun3{

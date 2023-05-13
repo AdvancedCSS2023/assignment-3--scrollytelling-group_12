@@ -123,24 +123,6 @@ gsap.to("#birds1", {
  })
 
  
-/*
- ScrollTrigger.create({
-  trigger: ".pin__clouds", 
-  start: "top 100%",
-  end: "+=3000",
-  pin: ".pin__clouds", 
-  pinSpacing: false,
-  onLeave: () => {
-    gsap.set(".pin__clouds", { clearProps: "position" });
-  }
-});
-*/
-
-
-
-
-
-
  ScrollTrigger.create({
   trigger: '.scene1', 
   start: "top 100%",
@@ -187,8 +169,6 @@ gsap.to("#birds1", {
 
 tlSun.to(".sun", {x:1050, y:-850, duration: 50})
 .to(".sun", {x: 2500, y: 0, duration: 50})
-
-
 
 
 
