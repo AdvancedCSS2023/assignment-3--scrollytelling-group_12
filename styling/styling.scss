@@ -938,5 +938,55 @@ padding: 0;
 }
 
 
+@media (max-width: 768px) {
+  .house{
+    display: none;
+  }
+  .house2{
+    display: none;
+  }
+  .pump{
+    display: none;
+  }
+  .drop{
+    display: none;
+  }
+  .drop2{
+    display: none;
+  }
+  .drop3{
+    display: none;
+  }
+  .Red-friend{
+    display: none;
+  }
+  .kid__kofi{
+    display: none;
+  }
+  .adult__kofi{
+    display: none;
+  }
+  .school__kofi{
+    display: none;
+  }
+  .tree1{
+    display: none;
+  }
+  .tree2{
+    display: none;
+  }
+  .scene5__text{
+    text-align: center;
+
+    transform: translate(20px,20px);
+    width: 80%;
+    padding: 2em;
+  
+
+  }
+
+
+}
+
 
 /*# sourceMappingURL=styling.css.map */
