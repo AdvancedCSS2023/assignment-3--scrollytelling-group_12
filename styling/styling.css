@@ -201,7 +201,7 @@
 
 
 @media (prefers-color-scheme: dark) {
-  .image-container--Scene5 {
+  .image__container--Scene5 {
     content: url('/images/moon.svg');
   }
   .image__container--Scene3 {
@@ -787,7 +787,7 @@ button:hover {
   z-index: 3;
 }
 
-.image-container--Scene5 {
+.image__container--Scene5 {
   position: absolute;
   
 }
