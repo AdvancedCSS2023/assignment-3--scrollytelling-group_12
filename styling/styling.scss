@@ -481,11 +481,7 @@ p {
   z-index: 2;
 }
 
-.scene3__text{
-  
- opacity: 0;
-  
-}
+
 
 
 #door,
@@ -650,16 +646,10 @@ button:hover {
 
 
 
-#scene4 {
-  height: 100vh;
-  width: 100%;
-  background: yellow;
-}
-
 .scene5 {
   height: 100vh;
   width: 100%;
-  background: skyblue;
+  background: $sky-color-blue;
   z-index: -1000;
 } /*# sourceMappingURL=styling.css.map */
 
@@ -829,7 +819,7 @@ animation: MoveUpDown 2s ease-in-out infinite;
   height: 300vh;
   width: 100%;
   position: relative;
-  background: #a8c0ff;
+  background: $sky-color-blue;
 }
 .scene4__sky {
   height: 70vh;
