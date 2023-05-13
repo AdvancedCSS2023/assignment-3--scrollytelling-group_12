@@ -621,6 +621,11 @@ button:hover {
   width: 100%;
   background: $sky-color-blue;
   position: relative;
+  @media (prefers-color-scheme: dark) {
+   
+    background:#0a0528;
+
+  }
 }
 
 .ground3 {

@@ -204,10 +204,16 @@
   .image-container--Scene5 {
     content: url('/images/moon.svg');
   }
+  .image-container--Scene3 {
+    content: url('/images/moon.svg');
+  }
 }
 
 @media (prefers-color-scheme: light) {
   .image-container--Scene5 {
+    content: url('/images/sun.png');
+  }
+  .image-container--Scene3 {
     content: url('/images/sun.png');
   }
 }
@@ -599,9 +605,10 @@ span {
   top: 20%;
 }
 
-.sun3 {
+.image-container--Scene3 {
   position: absolute;
-  transform: translateX(300px);
+  transform: translateX(200px);
+  
 }
 
 #hut {
@@ -840,6 +847,11 @@ button:hover {
   width: 100%;
   background: #a8c0ff;
   position: relative;
+  @media (prefers-color-scheme: dark) {
+   
+    background:#0a0528;
+
+  }
 }
 
 .ground3 {
