@@ -697,10 +697,6 @@ p {
   z-index: 2;
 }
 
-.scene3__text {
-  opacity: 0;
-}
-
 #door,
 #left-big-window,
 #right-big-window {
@@ -853,16 +849,10 @@ button:hover {
   z-index: 2;
 }
 
-#scene4 {
-  height: 100vh;
-  width: 100%;
-  background: yellow;
-}
-
 .scene5 {
   height: 100vh;
   width: 100%;
-  background: skyblue;
+  background: #a8c0ff;
   z-index: -1000;
 } 
 #kid-eyes,
