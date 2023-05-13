@@ -204,19 +204,17 @@
   .image-container--Scene5 {
     content: url('/images/moon.svg');
   }
-  .image-container--Scene3 {
+  .image__container--Scene3 {
+    content: url('/images/moon.svg');
+  }
+  .sun {
+    content: url('/images/moon.svg');
+  }
+  .scene2__ground-sun {
     content: url('/images/moon.svg');
   }
 }
 
-@media (prefers-color-scheme: light) {
-  .image-container--Scene5 {
-    content: url('/images/sun.png');
-  }
-  .image-container--Scene3 {
-    content: url('/images/sun.png');
-  }
-}
 
 
 /* Color Variables */
@@ -600,14 +598,13 @@ span {
 
 .sun {
   max-width: 100%;
-  border: red solid;
   position: relative;
   right: 30%;
   z-index: 0;
   top: 20%;
 }
 
-.image-container--Scene3 {
+.image__container--Scene3 {
   position: absolute;
   transform: translateX(200px);
   
