@@ -150,20 +150,25 @@
     transform: translateX(-1100%);
   }
 }
+@media (max-width: 768px) {
+  .house {
+    display: none;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
-  #kid-face {
+  .kid-face {
     animation: none !important;
   }
-  #school-face {
+  .school-face {
     animation: none !important;
   }
-  #door {
+  .door {
     animation: none !important;
   }
-  #left-big-window {
+  .left-big-window {
     animation: none !important;
   }
-  #right-big-window {
+  .right-big-window {
     animation: none !important;
   }
   .sun3 {
@@ -182,94 +187,6 @@
     animation: none !important;
   }
 }
-@media screen and (max-width: 768px) {
-  .school {
-    position: absolute;
-    transform: translate(50%, 5em);
-    width: 30px;
-    height: auto;
-  }
-  .kofi__school2 {
-    width: 66px; /* 50% of the original width */
-    height: 214px; /* 50% of the original height */
-    transform: translate(2em, 10em); /* adjust the position as needed */
-  }
-  .scene3 {
-    height: 50vh;
-  }
-}
-
-
-@media (prefers-color-scheme: dark) {
-  .image-container--Scene5 {
-    content: url('/images/moon.svg');
-  }
-  .image__container--Scene3 {
-    content: url('/images/moon.svg');
-  }
-  .sun {
-    content: url('/images/moon.svg');
-  }
-  .scene2__ground-sun {
-    content: url('/images/moon.svg');
-  }
-}
-
-
-
-/* Color Variables */
-/* Common */
-:root {
-  --sky-blue:#dcf6fc;
-  --clouds: #8ae0f3;
-  --ground: #e2ede2;
-  --road: #f8eece;
-}
-
-/* Emil */
-:root {
-  --bottombush: #a7d1a7;
-  --midbush: #0a490a;
-  --topbush: #418541;
-  --house-dark-pink: #e26b68;
-  --house-roof-dark-green: #0a490a;
-  --tree-bushes: #70a370;
-  --tree-stub: #1d1d1b;
-}
-
-/* Tobias */
-:root {
-  --house-roof: #e26b68;
-  --house-front: #e26b68;
-  --house-rightwall: #1d1d1b;
-  --house-rightroof: #0a490a;
-  --temple-front: #f8aa9f;
-  --temple-top-front: #e26b68;
-  --temple-roof: #1d1d1b;
-  --light-tree: #70a370;
-  --dark-tree: #418541;
-  --dark-bush: #0a490a;
-  --light-bush: #418541;
-  --lighter-bush: #a7d1a7;
-}
-
-/* Petter */
-:root {
-  --div-background-color-grass: rgb(198, 224, 198);
-  --div-background-color-sky: lightblue;
-  --color-red-tower-left: rgb(214, 116, 113);
-  --color-red-tower-right: rgb(161, 54, 54);
-  --color-green-tower-left: rgb(112, 177, 112);
-  --color-green-tower-right: rgb(57, 131, 57);
-  --color-cloud: rgb(43, 164, 180);
-  --white-detail: rgba(255, 255, 255, 0.266);
-  --color-bush1: rgb(129, 204, 129);
-  --color-bush2: rgb(35, 105, 35);
-  --color-bush3: rgb(14, 59, 14);
-  --color-nth-child: rgba(144, 144, 144, 0.483);
-  --color-tree-trunk: black;
-}
-
 body {
   margin: 0;
   overflow-x: hidden;
@@ -475,7 +392,11 @@ span {
   z-index: 0;
 }
 
+<<<<<<< HEAD
 #lack-water{
+=======
+#lack-water {
+>>>>>>> main
   position: relative;
   max-width: 40%;
   max-height: 20%;
@@ -582,8 +503,12 @@ span {
   background: linear-gradient(to bottom, #1b1c20, #a8c0ff 20%, #FFA500 40%, #FF5733 75%, #1b1c20 100%);
 }
 
+<<<<<<< HEAD
 
 #lack-water{
+=======
+#lack-water {
+>>>>>>> main
   position: relative;
   max-width: 40%;
   max-height: 20%;
@@ -606,6 +531,7 @@ span {
   justify-content: center;
 }
 
+<<<<<<< HEAD
 
 .inner-text h1 {
   margin: auto;
@@ -621,6 +547,20 @@ h3{
 }
 
 
+=======
+.inner-text h1 {
+  margin: auto;
+  padding: 2%;
+  margin: 2%;
+  text-align: center;
+}
+
+h3 {
+  font-weight: lighter;
+  margin: 3%;
+}
+
+>>>>>>> main
 .inner-text {
   width: 70%;
   background: white;
@@ -648,7 +588,6 @@ h3{
 .image__container--Scene3 {
   position: absolute;
   transform: translateX(200px);
-  
 }
 
 #hut {
@@ -829,12 +768,10 @@ button:hover {
   z-index: 3;
 }
 
-.image-container--Scene5 {
+.sun5 {
   position: absolute;
-  
+  animation: spin 2s linear infinite;
 }
-
-
 
 .house1 {
   transform: translate(950px, 250px);
@@ -888,11 +825,16 @@ button:hover {
   width: 100%;
   background: #a8c0ff;
   position: relative;
-  @media (prefers-color-scheme: dark) {
-   
-    background:#0a0528;
-
+}
+@media (prefers-color-scheme: dark) {
+  .scene3 {
+    background: #0a0528;
   }
+}
+
+.image__container--Scene3 {
+  position: absolute;
+  transform: translateX(200px);
 }
 
 .ground3 {
@@ -915,7 +857,6 @@ button:hover {
   position: absolute;
   transform: translate(50%, 11em);
   z-index: 2;
-
 }
 
 .scene5 {
@@ -923,13 +864,18 @@ button:hover {
   width: 100%;
   background: #a8c0ff;
   z-index: -1000;
-  @media (prefers-color-scheme: dark) {
-   
-    background:#0a0528;
-
+}
+@media (prefers-color-scheme: dark) {
+  .scene5 {
+    background: #0a0528;
   }
+}
 
-} 
+.image__container--Scene5 {
+  position: absolute;
+}
+
+
 #kid-eyes,
 #adult-eyes {
   animation: look-around 3s infinite;
@@ -969,24 +915,22 @@ button:hover {
   height: 300vh;
   background: #a8c0ff;
   position: relative;
-  @media (prefers-color-scheme: dark) {
-   
-    background:#0a0528;
-
+}
+@media (prefers-color-scheme: dark) {
+  .scene2 {
+    background: #0a0528;
   }
-
 }
 
 .scene2__sky {
   height: 70vh;
   width: 100%;
   background: #a8c0ff;
-  @media (prefers-color-scheme: dark) {
-   
-    background:#0a0528;
-
+}
+@media (prefers-color-scheme: dark) {
+  .scene2__sky {
+    background: #0a0528;
   }
-
 }
 
 .scene2__ground {
@@ -1053,12 +997,11 @@ button:hover {
   background: #a8c0ff;
   position: relative;
   overflow: hidden;
-  @media (prefers-color-scheme: dark) {
-   
-    background:#0a0528;
-
+}
+@media (prefers-color-scheme: dark) {
+  .scene2__part2 {
+    background: #0a0528;
   }
-
 }
 
 .scene2__part2-plane {
@@ -1096,10 +1039,10 @@ button:hover {
   width: 100%;
   position: relative;
   background: #a8c0ff;
-  @media (prefers-color-scheme: dark) {
-   
-    background:#0a0528;
-
+}
+@media (prefers-color-scheme: dark) {
+  .scene4 {
+    background: #0a0528;
   }
 }
 
@@ -1143,4 +1086,18 @@ button:hover {
   top: -50%;
 }
 
+@media (prefers-color-scheme: dark) {
+  .image__container--Scene5 {
+    content: url("/images/moon.svg");
+  }
+  .image__container--Scene3 {
+    content: url("/images/moon.svg");
+  }
+  .sun {
+    content: url("/images/moon.svg");
+  }
+  .scene2__ground-sun {
+    content: url("/images/moon.svg");
+  }
+}
 /*# sourceMappingURL=styling.css.map */

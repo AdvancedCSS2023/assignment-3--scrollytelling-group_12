@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (prefers-reduced-motion: reduce) {
   #kid-face {
     animation: none !important;
@@ -28,21 +29,42 @@
   }
   .drop3 {
     animation: none !important;
+=======
+@media (max-width: 768px) {
+  .house {
+    display: none;
+>>>>>>> main
   }
 }
-@media screen and (max-width: 768px) {
-  .school {
-    position: absolute;
-    transform: translate(50%, 5em);
-    width: 30px;
-    height: auto;
+@media (prefers-reduced-motion: reduce) {
+  .kid-face {
+    animation: none !important;
   }
-  .kofi__school2 {
-    width: 66px; /* 50% of the original width */
-    height: 214px; /* 50% of the original height */
-    transform: translate(2em, 10em); /* adjust the position as needed */
+  .school-face {
+    animation: none !important;
   }
-  .scene3 {
-    height: 50vh;
+  .door {
+    animation: none !important;
+  }
+  .left-big-window {
+    animation: none !important;
+  }
+  .right-big-window {
+    animation: none !important;
+  }
+  .sun3 {
+    animation: none !important;
+  }
+  .sun5 {
+    animation: none !important;
+  }
+  .drop {
+    animation: none !important;
+  }
+  .drop2 {
+    animation: none !important;
+  }
+  .drop3 {
+    animation: none !important;
   }
 }/*# sourceMappingURL=mediaqueries.css.map */

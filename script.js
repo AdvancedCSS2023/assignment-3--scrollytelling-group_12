@@ -273,7 +273,10 @@ window.onload = function() {
     kofi_back.to("#KOFItest", {x: 200, y: 900, duration: 5});
   
     
+<<<<<<< HEAD
   
+=======
+>>>>>>> main
 
 
 
