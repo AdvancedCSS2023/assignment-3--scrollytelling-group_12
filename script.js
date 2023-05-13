@@ -103,7 +103,6 @@ gsap.to("#birds1", {
 
 
    gsap.to(".scene1", {
-    background: "linear-gradient(to bottom, #1b1c20, #a8c0ff 20%, #FFA500 40%, #FF5733 75%, #1b1c20 100%",
     duration: 3,
     scrollTrigger: {
       trigger: ".scene1",

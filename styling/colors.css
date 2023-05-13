@@ -1,1 +1,52 @@
-/*# sourceMappingURL=colors.css.map */
+/* Color Variables */
+/* Common */
+:root {
+  --sky-blue:#dcf6fc;
+  --clouds: #8ae0f3;
+  --ground: #e2ede2;
+  --road: #f8eece;
+}
+
+/* Emil */
+:root {
+  --bottombush: #a7d1a7;
+  --midbush: #0a490a;
+  --topbush: #418541;
+  --house-dark-pink: #e26b68;
+  --house-roof-dark-green: #0a490a;
+  --tree-bushes: #70a370;
+  --tree-stub: #1d1d1b;
+}
+
+/* Tobias */
+:root {
+  --house-roof: #e26b68;
+  --house-front: #e26b68;
+  --house-rightwall: #1d1d1b;
+  --house-rightroof: #0a490a;
+  --temple-front: #f8aa9f;
+  --temple-top-front: #e26b68;
+  --temple-roof: #1d1d1b;
+  --light-tree: #70a370;
+  --dark-tree: #418541;
+  --dark-bush: #0a490a;
+  --light-bush: #418541;
+  --lighter-bush: #a7d1a7;
+}
+
+/* Petter */
+:root {
+  --div-background-color-grass: rgb(198, 224, 198);
+  --div-background-color-sky: lightblue;
+  --color-red-tower-left: rgb(214, 116, 113);
+  --color-red-tower-right: rgb(161, 54, 54);
+  --color-green-tower-left: rgb(112, 177, 112);
+  --color-green-tower-right: rgb(57, 131, 57);
+  --color-cloud: rgb(43, 164, 180);
+  --white-detail: rgba(255, 255, 255, 0.266);
+  --color-bush1: rgb(129, 204, 129);
+  --color-bush2: rgb(35, 105, 35);
+  --color-bush3: rgb(14, 59, 14);
+  --color-nth-child: rgba(144, 144, 144, 0.483);
+  --color-tree-trunk: black;
+}/*# sourceMappingURL=colors.css.map */
