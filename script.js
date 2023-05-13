@@ -171,7 +171,14 @@ tlSun.to(".sun", {x:1050, y:-850, duration: 50})
 .to(".sun", {x: 2500, y: 0, duration: 50})
 
 
-
+// Pinner sola
+ScrollTrigger.create ({
+  trigger:"#UN__GOAL__IN",
+  start: "top bottom",
+  end: "top 100%",
+  pin:"#UN__GOAL",
+  markers: true 
+})
 
 
 
