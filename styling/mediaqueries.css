@@ -4,23 +4,23 @@
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  #kid-face {
+  .kid-face {
     -webkit-animation: none !important;
             animation: none !important;
   }
-  #school-face {
+  .school-face {
     -webkit-animation: none !important;
             animation: none !important;
   }
-  #door {
+  .door {
     -webkit-animation: none !important;
             animation: none !important;
   }
-  #left-big-window {
+  .left-big-window {
     -webkit-animation: none !important;
             animation: none !important;
   }
-  #right-big-window {
+  .right-big-window {
     -webkit-animation: none !important;
             animation: none !important;
   }
