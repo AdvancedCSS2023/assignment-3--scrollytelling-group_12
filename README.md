@@ -11,4 +11,4 @@ This project is meant to highlight thee UN goal 6 which is to ensure availabilit
 For this project we have used a combination of html, scss and javascript. For the animations we have used a javascript plugin known as GSAP. We have used this plugin for all animations and pinning of elements. 
  
 ## Contact and help
-The project is public and can be found at https://github.com/AdvancedCSS2023/assignment-3--scrollytelling-group_12 For help please contact any of the repository contributors. This game is made by a group of web development students at NTNU Gjovik. The group consists of **Petter, Emil and Tobias.** 
+The project is public and can be found at https://github.com/AdvancedCSS2023/assignment-3--scrollytelling-group_12 For help please contact any of the repository contributors. This website is made by a group of web development students at NTNU Gjovik. The group consists of **Petter, Emil and Tobias.** 
