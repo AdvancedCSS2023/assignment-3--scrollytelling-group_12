@@ -1288,11 +1288,14 @@ button:hover {
   .tree2 {
     display: none;
   }
-  .scene5__text {
+  .scene5__text, .scene3__text2, .scene3__text1 {
     text-align: center;
     transform: translate(20px, 20px);
     width: 80%;
     padding: 2em;
+  }
+  .scene3__text1 {
+    transform: translateY(300px);
   }
 }
 /*# sourceMappingURL=styling.css.map *//*# sourceMappingURL=styling.css.map */
