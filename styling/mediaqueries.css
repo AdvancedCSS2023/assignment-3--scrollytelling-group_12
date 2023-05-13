@@ -1,0 +1,58 @@
+@media (prefers-reduced-motion: reduce) {
+  #kid-face {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+  #school-face {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+  #door {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+  #left-big-window {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+  #right-big-window {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+  .sun3 {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+  .sun5 {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+  .drop {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+  .drop2 {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+  .drop3 {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .school {
+    position: absolute;
+    transform: translate(50%, 5em);
+    width: 30px;
+    height: auto;
+  }
+  .kofi__school2 {
+    width: 66px; /* 50% of the original width */
+    height: 214px; /* 50% of the original height */
+    transform: translate(2em, 10em); /* adjust the position as needed */
+  }
+  .scene3 {
+    height: 50vh;
+  }
+}/*# sourceMappingURL=mediaqueries.css.map */
