@@ -888,12 +888,12 @@ button:hover {
   }
 
 } 
-#kid-eyes,
-#adult-eyes {
+.kid-eyes,
+.adult-eyes {
   animation: look-around 3s infinite;
 }
 
-#kid-face, #school-face {
+.kid-face, .school-face {
   animation: bobbing 2s ease-in-out infinite;
   transform-origin: bottom center;
 }
