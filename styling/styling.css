@@ -1,21 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
-@-webkit-keyframes rave {
-  0% {
-    fill: #ff00ff;
-  }
-  25% {
-    fill: #00ff00;
-  }
-  50% {
-    fill: #ffff00;
-  }
-  75% {
-    fill: #ff0000;
-  }
-  100% {
-    fill: #ff00ff;
-  }
-}
 @keyframes rave {
   0% {
     fill: #ff00ff;
@@ -33,17 +16,6 @@
     fill: #ff00ff;
   }
 }
-@-webkit-keyframes wiggle {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
 @keyframes wiggle {
   0% {
     transform: translateY(0);
@@ -53,17 +25,6 @@
   }
   100% {
     transform: translateY(0);
-  }
-}
-@-webkit-keyframes float-rotate {
-  0% {
-    transform: translate(0, 0) rotate(0deg);
-  }
-  50% {
-    transform: translate(20%, 20%) rotate(180deg);
-  }
-  100% {
-    transform: translate(0, 0) rotate(360deg);
   }
 }
 @keyframes float-rotate {
@@ -77,34 +38,12 @@
     transform: translate(0, 0) rotate(360deg);
   }
 }
-@-webkit-keyframes water-drop1 {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 @keyframes water-drop1 {
   0% {
     opacity: 1;
   }
   50% {
     opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@-webkit-keyframes water-drop2 {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
   }
   100% {
     opacity: 0;
@@ -121,17 +60,6 @@
     opacity: 0;
   }
 }
-@-webkit-keyframes water-drop3 {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes water-drop3 {
   0% {
     opacity: 0;
@@ -143,14 +71,6 @@
     opacity: 1;
   }
 }
-@-webkit-keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -159,29 +79,7 @@
     transform: rotate(360deg);
   }
 }
-@-webkit-keyframes look-around {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(3px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
 @keyframes look-around {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(3px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@-webkit-keyframes hair-animation {
   0% {
     transform: translateX(0);
   }
@@ -203,17 +101,6 @@
     transform: translateX(0);
   }
 }
-@-webkit-keyframes tilt-head {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
 @keyframes tilt-head {
   0% {
     transform: rotate(0deg);
@@ -223,17 +110,6 @@
   }
   100% {
     transform: rotate(0deg);
-  }
-}
-@-webkit-keyframes bobbing {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-8px);
-  }
-  100% {
-    transform: translateY(0);
   }
 }
 @keyframes bobbing {
@@ -247,17 +123,6 @@
     transform: translateY(0);
   }
 }
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 1;
-  }
-}
 @keyframes blink {
   0% {
     opacity: 1;
@@ -269,28 +134,12 @@
     opacity: 1;
   }
 }
-@-webkit-keyframes MoveUpDown {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-50px);
-  }
-}
 @keyframes MoveUpDown {
   0%, 100% {
     transform: translateY(0);
   }
   50% {
     transform: translateY(-50px);
-  }
-}
-@-webkit-keyframes moveClouds {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-1100%);
   }
 }
 @keyframes moveClouds {
@@ -308,44 +157,34 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .kid-face {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .school-face {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .door {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .left-big-window {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .right-big-window {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .sun3 {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .sun5 {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .drop {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .drop2 {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
   .drop3 {
-    -webkit-animation: none !important;
-            animation: none !important;
+    animation: none !important;
   }
 }
 body {
@@ -468,8 +307,7 @@ span {
   top: 70%; /* set the top property to 0 */
   left: 60%;
   z-index: 0;
-  -webkit-animation: wiggle 0.5s infinite;
-          animation: wiggle 0.5s infinite;
+  animation: wiggle 0.5s infinite;
 }
 
 #astronaut {
@@ -483,8 +321,7 @@ span {
   transform: translate(-50%, -50%);
   border-radius: 50%;
   transform-origin: 50% 150%;
-  -webkit-animation: float-rotate 10s linear infinite;
-          animation: float-rotate 10s linear infinite;
+  animation: float-rotate 10s linear infinite;
 }
 
 #astroid {
@@ -529,8 +366,7 @@ span {
   margin: auto;
   max-width: 25%;
   max-height: 20%;
-  -webkit-animation: wiggle 2s linear infinite;
-          animation: wiggle 2s linear infinite;
+  animation: wiggle 2s linear infinite;
   top: 140vh;
   left: 5%;
   padding: 2%;
@@ -540,7 +376,7 @@ span {
   position: relative;
   max-width: 30%;
   max-height: 15%;
-  top: 5%;
+  top: 2%;
   padding: 0;
   left: 35%;
   z-index: 0;
@@ -550,10 +386,21 @@ span {
   position: relative;
   max-width: 40%;
   max-height: 20%;
-  top: 8%;
+  top: 5.5%;
   left: 25%;
   padding: 0;
   z-index: 0;
+}
+
+#lack-water {
+  position: relative;
+  max-width: 40%;
+  max-height: 20%;
+  top: 2.85%;
+  left: 10%;
+  padding: 0;
+  z-index: 0;
+  opacity: 0.5;
 }
 
 .UN-Goal-Column {
@@ -562,33 +409,36 @@ span {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  row-gap: 50vh;
   margin-top: 200vh;
 }
 
 #UN__GOAL {
-  max-width: 15%;
-  max-height: 20%;
+  position: absolute;
+  max-width: 60%;
+  max-height: 70%;
   padding: 0;
   z-index: 0;
   content: url(/images/UNGoal6.png);
+  z-index: 0;
 }
 
 #UN__GOAL__IN {
-  max-width: 15%;
-  max-height: 20%;
+  position: absolute;
+  max-width: 60%;
+  max-height: 70%;
   padding: 0;
   z-index: 0;
   content: url(/images/UNgoal6Inverted.png);
-  z-index: 2;
+  z-index: 0;
+  border-radius: 10%;
 }
 
 .scene1_ground2 {
-  width: 200vh;
+  width: 100vh;
   height: 30vh;
   position: absolute;
   bottom: 0;
-  z-index: 1;
+  z-index: 5;
   background: #ddb966;
   padding: 0;
 }
@@ -631,6 +481,16 @@ span {
   position: relative;
 }
 
+.scene1_ground2 {
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  background: #ddb966;
+  padding: 0;
+}
+
 .scene1 {
   margin: 0;
   height: 2000vh;
@@ -639,20 +499,43 @@ span {
   background: linear-gradient(to bottom, #1b1c20, #a8c0ff 20%, #FFA500 40%, #FF5733 75%, #1b1c20 100%);
 }
 
+#lack-water {
+  position: relative;
+  max-width: 40%;
+  max-height: 20%;
+  top: 2.85%;
+  left: 10%;
+  padding: 0;
+  z-index: 0;
+  opacity: 0.5;
+}
+
 .text-container {
   margin: auto;
   position: relative;
   top: 5%;
   background: url(/images/text_box.avif);
-  max-width: 20%;
-  min-height: 2%;
-  left: 30%;
+  max-width: 50%;
+  min-height: 3%;
+  left: 1%;
   display: flex;
   justify-content: center;
 }
 
+.inner-text h1 {
+  margin: auto;
+  padding: 2%;
+  margin: 2%;
+  text-align: center;
+}
+
+h3 {
+  font-weight: lighter;
+  margin: 3%;
+}
+
 .inner-text {
-  width: 80%;
+  width: 70%;
   background: white;
   padding: 2%;
   margin: 5%;
@@ -669,16 +552,15 @@ span {
 
 .sun {
   max-width: 100%;
-  border: red solid;
   position: relative;
   right: 30%;
   z-index: 0;
   top: 20%;
 }
 
-.sun3 {
+.image__container--Scene3 {
   position: absolute;
-  transform: translateX(300px);
+  transform: translateX(200px);
 }
 
 #hut {
@@ -716,6 +598,7 @@ span {
   bottom: 95%;
   left: 12%;
   max-height: 70%;
+  z-index: 100000;
 }
 
 /* Petter */
@@ -790,8 +673,7 @@ p {
 #door,
 #left-big-window,
 #right-big-window {
-  -webkit-animation: rave 1s infinite;
-          animation: rave 1s infinite;
+  animation: rave 1s infinite;
 }
 
 .pump {
@@ -802,24 +684,21 @@ p {
 
 .drop {
   transform: translate(773px, 640px);
-  -webkit-animation: water-drop1 1s infinite;
-          animation: water-drop1 1s infinite;
+  animation: water-drop1 1s infinite;
   position: absolute;
   z-index: 2;
 }
 
 .drop2 {
   transform: translate(773px, 690px);
-  -webkit-animation: water-drop2 1s infinite;
-          animation: water-drop2 1s infinite;
+  animation: water-drop2 1s infinite;
   position: absolute;
   z-index: 2;
 }
 
 .drop3 {
   transform: translate(773px, 740px);
-  -webkit-animation: water-drop3 1s infinite;
-          animation: water-drop3 1s infinite;
+  animation: water-drop3 1s infinite;
   position: absolute;
   z-index: 2;
 }
@@ -864,8 +743,7 @@ button:hover {
 
 .sun5 {
   position: absolute;
-  -webkit-animation: spin 2s linear infinite;
-          animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
 }
 
 .house1 {
@@ -970,27 +848,23 @@ button:hover {
   position: absolute;
 }
 
-/*# sourceMappingURL=styling.css.map */
+
 #kid-eyes,
 #adult-eyes {
-  -webkit-animation: look-around 3s infinite;
-          animation: look-around 3s infinite;
+  animation: look-around 3s infinite;
 }
 
 #kid-face, #school-face {
-  -webkit-animation: bobbing 2s ease-in-out infinite;
-          animation: bobbing 2s ease-in-out infinite;
+  animation: bobbing 2s ease-in-out infinite;
   transform-origin: bottom center;
 }
 
 #school-hair {
-  -webkit-animation: look-around 3s infinite;
-          animation: look-around 3s infinite;
+  animation: look-around 3s infinite;
 }
 
 #RF-blink {
-  -webkit-animation: blink 3s ease-in-out infinite;
-          animation: blink 3s ease-in-out infinite;
+  animation: blink 3s ease-in-out infinite;
 }
 
 .ground {
@@ -1109,8 +983,7 @@ button:hover {
   max-height: 40%;
   top: 10%;
   left: 30%;
-  -webkit-animation: MoveUpDown 2s ease-in-out infinite;
-          animation: MoveUpDown 2s ease-in-out infinite;
+  animation: MoveUpDown 2s ease-in-out infinite;
 }
 
 [class^=scene2__cloud-] {
@@ -1119,23 +992,19 @@ button:hover {
   max-height: 20%;
   top: 30%;
   right: -20%;
-  -webkit-animation: moveClouds 5s linear infinite;
-          animation: moveClouds 5s linear infinite;
+  animation: moveClouds 5s linear infinite;
 }
 
 .scene2__cloud-big {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .scene2__cloud-medium {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  animation-delay: 2s;
 }
 
 .scene2__cloud-small {
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  animation-delay: 3s;
 }
 
 .scene4 {
@@ -1204,4 +1073,4 @@ button:hover {
     content: url("/images/moon.svg");
   }
 }
-/*# sourceMappingURL=styling.css.map *//*# sourceMappingURL=styling.css.map */
+/*# sourceMappingURL=styling.css.map */
