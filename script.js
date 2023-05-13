@@ -223,8 +223,8 @@ scrub: 1
 }
 });
 
-airplane.to("#scene2__ground-airplane", {x: 250, y: -45, duration: 2})
-    .to("#scene2__ground-airplane", {x: 1000, y: -500, duration: 5})
+airplane.to(".scene2__ground-airplane", {x: 250, y: -45, duration: 2})
+    .to(".scene2__ground-airplane", {x: 1000, y: -500, duration: 5})
     .to(".scene2__ground", {opacity: 0, duration: 1}, "-=1");
 
 
@@ -239,8 +239,8 @@ scrub: 1
 }
 });
     
-landing.to("#scene4__ground-airplane", {x: -700, y: 400, duration: 2})
-.to("#scene4__ground-airplane", {x: -1000, y: 480, duration: 5})
+landing.to(".scene4__ground-airplane", {x: -700, y: 400, duration: 2})
+.to(".scene4__ground-airplane", {x: -1000, y: 480, duration: 5})
 .to(".scene4__ground", {opacity: 0, duration: 1}, "-=1");
     
 
