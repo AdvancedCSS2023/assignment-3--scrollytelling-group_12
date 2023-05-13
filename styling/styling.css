@@ -392,7 +392,11 @@ span {
   z-index: 0;
 }
 
+<<<<<<< HEAD
+#lack-water{
+=======
 #lack-water {
+>>>>>>> main
   position: relative;
   max-width: 40%;
   max-height: 20%;
@@ -499,7 +503,12 @@ span {
   background: linear-gradient(to bottom, #1b1c20, #a8c0ff 20%, #FFA500 40%, #FF5733 75%, #1b1c20 100%);
 }
 
+<<<<<<< HEAD
+
+#lack-water{
+=======
 #lack-water {
+>>>>>>> main
   position: relative;
   max-width: 40%;
   max-height: 20%;
@@ -522,6 +531,23 @@ span {
   justify-content: center;
 }
 
+<<<<<<< HEAD
+
+.inner-text h1 {
+  margin: auto;
+  padding: 2%;
+  margin:2%;
+  text-align: center;
+}
+
+h3{
+  font-weight: lighter;
+  margin: 3%;
+
+}
+
+
+=======
 .inner-text h1 {
   margin: auto;
   padding: 2%;
@@ -534,6 +560,7 @@ h3 {
   margin: 3%;
 }
 
+>>>>>>> main
 .inner-text {
   width: 70%;
   background: white;

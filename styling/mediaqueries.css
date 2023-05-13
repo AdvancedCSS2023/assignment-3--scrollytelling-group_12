@@ -1,6 +1,39 @@
+<<<<<<< HEAD
+@media (prefers-reduced-motion: reduce) {
+  #kid-face {
+    animation: none !important;
+  }
+  #school-face {
+    animation: none !important;
+  }
+  #door {
+    animation: none !important;
+  }
+  #left-big-window {
+    animation: none !important;
+  }
+  #right-big-window {
+    animation: none !important;
+  }
+  .sun3 {
+    animation: none !important;
+  }
+  .sun5 {
+    animation: none !important;
+  }
+  .drop {
+    animation: none !important;
+  }
+  .drop2 {
+    animation: none !important;
+  }
+  .drop3 {
+    animation: none !important;
+=======
 @media (max-width: 768px) {
   .house {
     display: none;
+>>>>>>> main
   }
 }
 @media (prefers-reduced-motion: reduce) {
