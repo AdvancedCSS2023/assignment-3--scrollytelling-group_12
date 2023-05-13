@@ -31,21 +31,4 @@
     }
   }
 
-  @media screen and (max-width: 768px) {
-    .school {
-      position: absolute;
-      transform: translate(50%, 5em);
-      width: 30px;
-      height: auto;
-      
-    }
-    .kofi__school2 {
-        width: 66px; /* 50% of the original width */
-        height: 214px; /* 50% of the original height */
-        transform: translate(2em, 10em); /* adjust the position as needed */
-    }
-    .scene3 {
-      height: 50vh;
-    }
-  }
 
