@@ -45,4 +45,9 @@
   .scene3 {
     height: 50vh;
   }
+}
+@media (preferse-color-scheme: dark) {
+  .sun5 {
+    content: url(/images/moon.svg);
+  }
 }/*# sourceMappingURL=mediaqueries.css.map */
