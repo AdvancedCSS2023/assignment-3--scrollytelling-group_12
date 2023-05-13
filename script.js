@@ -112,6 +112,8 @@ gsap.to("#birds1", {
   });
 
   
+
+  
  
 
   ScrollTrigger.create ({
@@ -133,6 +135,52 @@ gsap.to("#birds1", {
     gsap.set(".ground2", { clearProps: "position" });
   }
 });
+
+
+
+
+
+
+const shove = gsap.timeline({
+  scrollTrigger: {
+  trigger: "#UN__Fact",
+  start: "top top",
+  toggleActions: "play reverse play reverse"
+  }
+  });
+      
+  shove.to("#UN__Fact", {x: -1000, opacity:0, duration: 1});
+
+
+
+  const shove2 = gsap.timeline({
+    scrollTrigger: {
+    trigger: "#UN__Fact2",
+    start: "top top",
+    toggleActions: "play reverse play reverse"
+    }
+    });
+        
+    shove2.to("#UN__Fact2", {x: -1000, opacity:0, duration: 1});
+  
+  
+    const shove3 = gsap.timeline({
+      scrollTrigger: {
+      trigger: "#lack-water",
+      start: "top top",
+      toggleActions: "play reverse play reverse"
+      }
+      });
+          
+      shove3.to("#lack-water", {x: 1000, opacity:0, duration: 1});
+    
+    
+
+
+
+
+
+
 
   gsap.to(".text-container", {
     scrollTrigger: {
@@ -170,7 +218,7 @@ tlSun.to(".sun", {x:1050, y:-850, duration: 50})
 .to(".sun", {x: 2500, y: 0, duration: 50})
 
 
-// Pinner sola
+
 ScrollTrigger.create ({
   trigger:"#UN__GOAL__IN",
   start: "top bottom",
@@ -179,6 +227,53 @@ ScrollTrigger.create ({
   markers: true 
 })
 
+
+window.onload = function() {
+    
+  // register the scrolltrigger pluger with GSAP
+  gsap.registerPlugin(ScrollTrigger);
+
+ 
+  gsap.to('#UN__GOAL', {
+      scrollTrigger: {
+          trigger: '#UN__GOAL', 
+          start: 'top top',
+          end: "+=1000",
+          pin: true,
+          onUpdate: function(self) {
+            console.log( self.scroll() )
+          }
+      }
+  })};
+
+
+  const kofi = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".text-container",
+      start: "bottom top",
+      end: "+=1500",
+      scrub: true
+    }
+  });
+  
+  kofi.to("#KOFItest", {x: 220, y: 70, duration: 5})
+     .to("#KOFItest", {x: -350, y: 70, duration: 5});
+  
+
+
+     const kofi_back = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".scene1",
+        start: "bottom bottom",
+        end: "+=1500",
+        scrub: true
+      }
+    });
+    
+    kofi_back.to("#KOFItest", {x: 200, y: 900, duration: 5});
+  
+    
+  
 
 
 

@@ -230,10 +230,8 @@ z-index: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
-    row-gap: 50vh;
-    margin-top: 200vh;
+
   }
   
   #UN__GOAL {
@@ -650,17 +648,12 @@ button:hover {
   z-index: 2;
 }
 
-
-
 .scene5 {
   height: 100vh;
   width: 100%;
   background: $sky-color-blue;
   z-index: -1000;
 } /*# sourceMappingURL=styling.css.map */
-
-
-
 
 
 #kid-eyes,
