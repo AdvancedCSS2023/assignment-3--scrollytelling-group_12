@@ -79,8 +79,8 @@ gsap.utils.toArray("span").forEach((span) => {
 
 gsap.to("#birds1", {
     x: 2000,
-    y: -1000,
-   duration: 2,
+    y: -2400,
+   duration: 5,
     scrollTrigger: {
     trigger: ".birds",
     start: "top 100%"
@@ -123,9 +123,18 @@ gsap.to("#birds1", {
  })
 
  
-
-
-
+/*
+ ScrollTrigger.create({
+  trigger: ".pin__clouds", 
+  start: "top 100%",
+  end: "+=3000",
+  pin: ".pin__clouds", 
+  pinSpacing: false,
+  onLeave: () => {
+    gsap.set(".pin__clouds", { clearProps: "position" });
+  }
+});
+*/
 
 
 
@@ -143,11 +152,6 @@ gsap.to("#birds1", {
     gsap.set(".ground2", { clearProps: "position" });
   }
 });
-
-
-
-
-
 
   gsap.to(".text-container", {
     scrollTrigger: {
