@@ -217,6 +217,8 @@
     content: url('/images/sun.png');
   }
 }
+
+
 /* Color Variables */
 /* Common */
 :root {
@@ -928,12 +930,24 @@ button:hover {
   height: 300vh;
   background: #a8c0ff;
   position: relative;
+  @media (prefers-color-scheme: dark) {
+   
+    background:#0a0528;
+
+  }
+
 }
 
 .scene2__sky {
   height: 70vh;
   width: 100%;
   background: #a8c0ff;
+  @media (prefers-color-scheme: dark) {
+   
+    background:#0a0528;
+
+  }
+
 }
 
 .scene2__ground {
@@ -1000,6 +1014,12 @@ button:hover {
   background: #a8c0ff;
   position: relative;
   overflow: hidden;
+  @media (prefers-color-scheme: dark) {
+   
+    background:#0a0528;
+
+  }
+
 }
 
 .scene2__part2-plane {
@@ -1037,6 +1057,11 @@ button:hover {
   width: 100%;
   position: relative;
   background: #a8c0ff;
+  @media (prefers-color-scheme: dark) {
+   
+    background:#0a0528;
+
+  }
 }
 
 .scene4__sky {
