@@ -197,6 +197,9 @@ span {
   padding: 0;
   left: 35%;
   z-index: 0;
+  @media (prefers-color-scheme: dark) {
+    opacity: 0.3;
+  }
 }
 
 #UN__Fact2 {
@@ -207,6 +210,9 @@ span {
   left: 25%;
   padding: 0;
   z-index: 0;
+  @media (prefers-color-scheme: dark) {
+    opacity: 0.3;
+  }
 }
 
 #lack-water{
@@ -227,6 +233,9 @@ span {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 200vh;
+   @media (prefers-color-scheme: dark) {
+    opacity: 0.3;
+  }
 }
 
 #UN__GOAL {
@@ -288,14 +297,18 @@ span {
   position: relative;
   max-width: 35%;
   max-height: 35%;
-  transform: rotate(0.5turn);
   z-index: 1;
 }
 
 .sky {
   height: 300vh;
-  background: linear-gradient(to bottom, #4d5a6a, #808080, #a8c0ff);
+  background: linear-gradient(to bottom, $skyShade1, $skyShade2, $sky-color-blue);
   position: relative;
+  @media (prefers-color-scheme: dark) {
+   
+    background: linear-gradient(to bottom, $skyShade1, $skyShade2);
+
+  }
 }
 
 .scene1_ground2 {
@@ -304,7 +317,7 @@ span {
   position: absolute;
   bottom: 0;
   z-index: 1;
-  background: #ddb966;
+  background: $ground-dry;
   padding: 0;
 }
 
@@ -312,8 +325,12 @@ span {
   margin: 0;
   height: 2000vh;
   background: #a8c0ff;
-  border: solid red;
-  background: linear-gradient(to bottom, #1b1c20, #a8c0ff 20%, #FFA500 40%, #FF5733 75%, #1b1c20 100%);
+  background: linear-gradient(to bottom, $day 20%, $afternoon 40%, $sunset 75%, $dark-mode-sky 100%);
+  @media (prefers-color-scheme: dark) {
+   
+    background: linear-gradient(to bottom, $skyShade2 10%, $night 80%, $dark-mode-sky 100%);
+
+  }
 }
 
 
@@ -338,6 +355,10 @@ span {
   left: 1%;
   display: flex;
   justify-content: center;
+  @media (prefers-color-scheme: dark) {
+   background: black; 
+
+  }
 }
 
 
@@ -346,11 +367,19 @@ span {
   padding: 2%;
   margin:2%;
   text-align: center;
+   @media (prefers-color-scheme: dark) {
+   color: white;
+
+  }
 }
 
 h3{
   font-weight: lighter;
   margin: 3%;
+  @media (prefers-color-scheme: dark) {
+    color: white;
+
+  }
 
 }
 
@@ -360,6 +389,10 @@ h3{
   background: white;
   padding: 2%;
   margin: 5%;
+  @media (prefers-color-scheme: dark) {
+   
+    background: $black;
+  }
 }
 
 #stone-well {

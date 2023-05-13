@@ -177,11 +177,6 @@ const shove = gsap.timeline({
     
 
 
-
-
-
-
-
   gsap.to(".text-container", {
     scrollTrigger: {
       trigger: ".text-container",
@@ -230,7 +225,7 @@ ScrollTrigger.create ({
 
 window.onload = function() {
     
-  // register the scrolltrigger pluger with GSAP
+
   gsap.registerPlugin(ScrollTrigger);
 
  
@@ -272,7 +267,19 @@ window.onload = function() {
     
     kofi_back.to("#KOFItest", {x: 200, y: 900, duration: 5});
   
-    
+
+
+
+
+
+    const scene1Gone = gsap.timeline({
+      scrollTrigger: {
+      trigger: ".scene2__ground-sun",
+      start: "top 100%",
+      scrub: 1
+      }
+      });  
+      scene1Gone.to(".scene1_ground2", {x: -3000, opacity:0, duration: 2})
 
 
 
