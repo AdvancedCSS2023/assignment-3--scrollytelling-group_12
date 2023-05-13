@@ -1073,4 +1073,17 @@ button:hover {
     content: url("/images/moon.svg");
   }
 }
+
+
+@media (max-width: 768px) {
+  .house{
+    display: none;
+  }
+  .scene5__text{
+    text-align: center;
+  }
+}
+
+
 /*# sourceMappingURL=styling.css.map */
+
