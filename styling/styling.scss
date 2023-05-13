@@ -732,14 +732,14 @@ background: #ddb966;
 padding: 0;
 }
 
-#scene2__ground-airport {
+.scene2__ground-airport {
   position:absolute;
   max-width: 150%;
   max-height: 150%;
   bottom: 80%;
 }
 
-#scene2__ground-airplane {
+.scene2__ground-airplane {
   position: absolute;
   max-width: 40%;
   max-height: 40%;
@@ -750,7 +750,7 @@ padding: 0;
   
 }
 
-#scene2__ground-runway {
+.scene2__ground-runway {
   position: absolute;
   max-width: 200%;
   max-height: 200%;
@@ -759,7 +759,7 @@ padding: 0;
   top: -50%;
 }
 
-#scene2__ground-sun {
+.scene2__ground-sun {
   position: absolute;
   top: -220%;
   left: 10%;
@@ -790,7 +790,7 @@ padding: 0;
   overflow: hidden;
 } 
 
-#scene2__part2-plane {
+.scene2__part2-plane {
 position: absolute;
  max-width: 40%;
  max-height: 40%;
@@ -846,14 +846,14 @@ background: #ddb966;
 padding: 0;
 }
 
-#scene4__ground-airport {
+.scene4__ground-airport {
   position:absolute;
   max-width: 150%;
   max-height: 150%;
   bottom: 80%;
 }
 
-#scene4__ground-airplane {
+.scene4__ground-airplane {
   position: absolute;
   max-width: 40%;
   max-height: 40%;
@@ -864,7 +864,7 @@ padding: 0;
   
 }
 
-#scene4__ground-runway {
+.scene4__ground-runway {
   position: absolute;
   max-width: 200%;
   max-height: 200%;
