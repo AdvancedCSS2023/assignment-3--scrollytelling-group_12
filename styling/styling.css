@@ -198,6 +198,19 @@
     height: 50vh;
   }
 }
+
+
+@media (prefers-color-scheme: dark) {
+  .image-container--Scene5 {
+    content: url('/images/moon.svg');
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .image-container--Scene5 {
+    content: url('/images/sun.png');
+  }
+}
 /* Color Variables */
 /* Common */
 :root {
@@ -768,10 +781,12 @@ button:hover {
   z-index: 3;
 }
 
-.sun5 {
+.image-container--Scene5 {
   position: absolute;
-  animation: spin 2s linear infinite;
+  
 }
+
+
 
 .house1 {
   transform: translate(950px, 250px);
@@ -847,6 +862,7 @@ button:hover {
   position: absolute;
   transform: translate(50%, 11em);
   z-index: 2;
+
 }
 
 .scene5 {
@@ -854,6 +870,12 @@ button:hover {
   width: 100%;
   background: #a8c0ff;
   z-index: -1000;
+  @media (prefers-color-scheme: dark) {
+   
+    background:#0a0528;
+
+  }
+
 } 
 #kid-eyes,
 #adult-eyes {

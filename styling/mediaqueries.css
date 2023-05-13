@@ -1,33 +1,43 @@
 @media (prefers-reduced-motion: reduce) {
   #kid-face {
-    animation: none !important;
+    -webkit-animation: none !important;
+            animation: none !important;
   }
   #school-face {
-    animation: none !important;
+    -webkit-animation: none !important;
+            animation: none !important;
   }
   #door {
-    animation: none !important;
+    -webkit-animation: none !important;
+            animation: none !important;
   }
   #left-big-window {
-    animation: none !important;
+    -webkit-animation: none !important;
+            animation: none !important;
   }
   #right-big-window {
-    animation: none !important;
+    -webkit-animation: none !important;
+            animation: none !important;
   }
   .sun3 {
-    animation: none !important;
+    -webkit-animation: none !important;
+            animation: none !important;
   }
   .sun5 {
-    animation: none !important;
+    -webkit-animation: none !important;
+            animation: none !important;
   }
   .drop {
-    animation: none !important;
+    -webkit-animation: none !important;
+            animation: none !important;
   }
   .drop2 {
-    animation: none !important;
+    -webkit-animation: none !important;
+            animation: none !important;
   }
   .drop3 {
-    animation: none !important;
+    -webkit-animation: none !important;
+            animation: none !important;
   }
 }
 @media screen and (max-width: 768px) {
@@ -44,10 +54,5 @@
   }
   .scene3 {
     height: 50vh;
-  }
-}
-@media (preferse-color-scheme: dark) {
-  .sun5 {
-    content: url(/images/moon.svg);
   }
 }/*# sourceMappingURL=mediaqueries.css.map */
