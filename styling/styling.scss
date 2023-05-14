@@ -2,6 +2,31 @@
 @import "mediaqueries";
 @import "colors";
 
+
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Varela Round", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  box-sizing: border-box;
+}
   
 
 body {
@@ -478,30 +503,7 @@ h3{
 }
 /* Petter */
 
-@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "Varela Round", sans-serif;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
-
-html,
-body {
-  box-sizing: border-box;
-}
 
 /*
 p {
@@ -591,9 +593,6 @@ a {
   color: #fff;
 }
 
-button:hover {
-  background-color: rgb(105, 178, 191);
-}
 
 .ground {
   width: 200vh;
@@ -791,10 +790,6 @@ color: black;
   transform-origin: bottom center;
 }
 
-
-#school-hair {
-  animation: look-around 3s infinite;
-}
 
 
 
@@ -1102,6 +1097,9 @@ padding: 0;
     display: none;
   }
   .tree2{
+    display: none;
+  }
+  .school{
     display: none;
   }
   .scene5__text, .scene3__text2, .scene3__text1{

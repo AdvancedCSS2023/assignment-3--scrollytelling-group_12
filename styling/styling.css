@@ -348,6 +348,29 @@
             animation: none !important;
   }
 }
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Varela Round", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
@@ -830,29 +853,6 @@ h3 {
 }
 
 /* Petter */
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "Varela Round", sans-serif;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
-
-html,
-body {
-  box-sizing: border-box;
-}
-
 /*
 p {
   transform: translate(50em, 0em);
@@ -939,10 +939,6 @@ p {
 a {
   text-decoration: none;
   color: #fff;
-}
-
-button:hover {
-  background-color: rgb(105, 178, 191);
 }
 
 .ground {
@@ -1120,11 +1116,6 @@ button:hover {
   -webkit-animation: bobbing 2s ease-in-out infinite;
           animation: bobbing 2s ease-in-out infinite;
   transform-origin: bottom center;
-}
-
-#school-hair {
-  -webkit-animation: look-around 3s infinite;
-          animation: look-around 3s infinite;
 }
 
 #RF-blink {
@@ -1420,6 +1411,9 @@ button:hover {
     display: none;
   }
   .tree2 {
+    display: none;
+  }
+  .school {
     display: none;
   }
   .scene5__text, .scene3__text2, .scene3__text1 {
