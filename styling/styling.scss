@@ -606,16 +606,15 @@ a {
 }
 
 .ground5 {
-  width: 100vw;
+  width: 100%;
   height: 30vh;
   position: absolute;
   z-index: 1;
   background: $ground-green;
-  padding: 0;
   display: flex;
-  transform: translateY(38.4em);
+  transform: translateY(60em);
   
-
+  
 }
 
 .cloud1 {
@@ -818,7 +817,8 @@ margin: 2%;
 
 
 .scene5 {
-  height: 100vh;
+  position: relative;
+  height: 120vh;
   width: 100%;
   background: #a8c0ff;
   z-index: -1000;
