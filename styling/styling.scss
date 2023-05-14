@@ -229,11 +229,18 @@ span {
   }
 }
 
-#lack-water{
+.container-test0{
   position: relative;
+  top: 3%;
+
+
+}
+
+#lack-water{
+  position: absolute;
   max-width: 40%;
   max-height: 20%;
-  top: 2.85%;
+  top: 3%;
   left: 10%;
   padding: 0;
   z-index: 0;
@@ -496,6 +503,7 @@ body {
   box-sizing: border-box;
 }
 
+/*
 p {
   transform: translate(50em, 0em);
   width: 30em;
@@ -503,7 +511,7 @@ p {
   font-weight: bolder;
   position: absolute;
 }
-
+*/
 
 .scene3__text1{
   position: absolute;
@@ -806,6 +814,36 @@ button:hover {
   }
 
 }
+
+
+
+
+.scene2__text-container {
+  margin: auto;
+position: relative;
+background: url(/images/text_box.avif);
+width: 100%;
+min-height: 3%;
+display: flex;
+align-items: center;
+justify-content: center;
+top: 50%;
+}
+
+.scene2__inner-text{
+  position: relative;
+  text-align: center;
+  background: white;
+max-width: 40%;
+padding: 2%;
+margin: 2%;
+}
+
+#scene2__ground-text{
+font-size: 18px;
+color: black;
+}
+
 
 
 .scene2__ground {

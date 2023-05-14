@@ -182,7 +182,6 @@ const shove = gsap.timeline({
       trigger: ".text-container",
       start: "top 100%",
       pin: ".text-container",
-      markers: true
     },
     },
   );
@@ -194,15 +193,13 @@ const shove = gsap.timeline({
     start: "top 100%",
     end: "+=12000",
     pin:".sun",
-    markers: true 
  })
 
  
-// animasjon for sola
+// animasjon for sola/månen
   const tlSun = gsap.timeline({
     scrollTrigger: {
         trigger: ".sun",
-        //markers: true,
         start: "top 100%",
         end: "+=18000",
         scrub: true,
@@ -219,7 +216,7 @@ ScrollTrigger.create ({
   start: "top bottom",
   end: "top 100%",
   pin:"#UN__GOAL",
-  markers: true 
+
 })
 
 
@@ -256,17 +253,7 @@ window.onload = function() {
   
 
 
-     const kofi_back = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".scene1",
-        start: "bottom bottom",
-        end: "+=1500",
-        scrub: true
-      }
-    });
     
-    kofi_back.to("#KOFItest", {x: 200, y: 900, duration: 5});
-  
 
 
 
