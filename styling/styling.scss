@@ -130,12 +130,12 @@ span {
   }
 }
 
-#space {
+.space {
   height: 400vh;
   background: linear-gradient(to bottom, #000000, #1c2331, #4d5a6a);
 }
 
-.star-container {
+.space__star-container {
   position: absolute;
   display: flex;
   flex-wrap: wrap;
@@ -315,7 +315,7 @@ span {
   padding: 0;
 }
 
-.star-container {
+.space__star-container {
   position: absolute;
   display: flex;
   flex-wrap: wrap;
@@ -472,13 +472,13 @@ h3{
   max-height: 500px;
 }
 
-.dried-trees {
+.scene1-ground2__dried-trees {
   display: flex;
   position: relative;
   justify-content: space-around;
 }
 
-.dried-trees:nth-child(-n+3) {
+.scene1-ground2__dried-trees:nth-child(-n+3) {
   bottom: 60%;
   width: 60%;
   height: 100%;

@@ -4,7 +4,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 
  ScrollTrigger.create ({
-    trigger:"#space",
+    trigger:".space",
     start: "top 20%",
     end: "bottom 30%",
     pin:"#movieboard"
@@ -15,7 +15,7 @@ gsap.to("#movieboard", {
   x: -1500,
  duration: 5,
   scrollTrigger: {
-  trigger: "#space",
+  trigger: ".space",
   start: "center",
    end: "bottom 70%",
 
@@ -27,7 +27,7 @@ gsap.to("#movieboard", {
 
 
  ScrollTrigger.create ({
-    trigger:"#space",
+    trigger:".space",
     start: "top",
     end: "bottom 80%",
     pin:".curtains"
@@ -37,7 +37,7 @@ gsap.to("#movieboard", {
 
  const tl_left_curtain = gsap.timeline({
     scrollTrigger: {
-        trigger: "#space",
+        trigger: ".space",
         start: "top",
         end: "bottom bottom",
         scrub: 1
@@ -51,7 +51,7 @@ tl_left_curtain.to(".left-curtain", {xPercent: -100, duration: 1})
 
 const tl_Right_curtain = gsap.timeline({
     scrollTrigger: {
-        trigger: "#space",
+        trigger: ".space",
         start: "top",
         end: "bottom bottom",
         scrub: 1
@@ -68,7 +68,7 @@ tl_Right_curtain.to(".right-curtain", {xPercent: 100, duration: 1})
 
 gsap.utils.toArray("span").forEach((span) => {
     ScrollTrigger.create({
-        trigger: "#space",
+        trigger: ".space",
         start: "top",
         toggleClass: "active",
         /*Eller den forblir*/
