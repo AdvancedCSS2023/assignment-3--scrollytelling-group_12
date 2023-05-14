@@ -702,7 +702,7 @@ max-width: 30%;
 min-height: 3%;
 display: flex;
 justify-content: center;
-left: 30%;
+left: 33%;
 bottom: 10%;
 }
 
@@ -710,7 +710,7 @@ bottom: 10%;
   margin: auto;
   text-align: center;
   background: white;
-max-width: 90%;
+max-width: 60%;
 padding: 2%;
 margin: 2%;
 }
@@ -718,6 +718,67 @@ margin: 2%;
 #scene3__ground-text{
 font-size: 18px;
 color: black;
+padding: 2%;
+margin: 2%;
+}
+
+
+
+
+.scene4__text-container {
+  margin: auto;
+position: relative;
+background: url(/images/text_box.avif);
+max-width: 30%;
+min-height: 3%;
+display: flex;
+justify-content: center;
+left: 30%;
+bottom: 100%;
+}
+
+.scene4__inner-text{
+  margin: auto;
+  text-align: center;
+  background: white;
+max-width: 60%;
+padding: 2%;
+margin: 2%;
+}
+
+#scene4__ground-text{
+font-size: 18px;
+color: black;
+padding: 2%;
+margin: 2%;
+}
+
+
+.scene5__text-container {
+  margin: auto;
+position: relative;
+background: url(/images/text_box.avif);
+max-width: 30%;
+min-height: 3%;
+display: flex;
+justify-content: center;
+top:35%;
+}
+
+.scene5__inner-text{
+  margin: auto;
+  text-align: center;
+  background: white;
+max-width: 60%;
+padding: 2%;
+margin: 2%;
+}
+
+#scene5__ground-text{
+font-size: 18px;
+color: black;
+padding: 2%;
+margin: 2%;
 }
 
 
