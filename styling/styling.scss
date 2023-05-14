@@ -694,6 +694,36 @@ button:hover {
 
   }
 }
+
+.scene3__text-container {
+  margin: auto;
+position: relative;
+background: url(/images/text_box.avif);
+max-width: 30%;
+min-height: 3%;
+display: flex;
+justify-content: center;
+left: 30%;
+bottom: 10%;
+}
+
+.scene3__inner-text{
+  margin: auto;
+  text-align: center;
+  background: white;
+max-width: 90%;
+padding: 2%;
+margin: 2%;
+}
+
+#scene3__ground-text{
+font-size: 18px;
+color: black;
+}
+
+
+
+
 .image__container--Scene3 {
   position: absolute;
   transform: translateX(200px);
@@ -712,9 +742,12 @@ button:hover {
 
 .kofi__school2 {
   position: absolute;
-  transform: translate(4em, 20em);
+  left: 10%;
+  bottom: 100px;
   z-index: 2;
 }
+
+
 
 .school {
   position: absolute;
