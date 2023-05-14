@@ -286,7 +286,7 @@ span {
   position: absolute;
   bottom: 0;
   z-index: 5;
-  background: #ddb966;
+  background: $ground-dry;
   padding: 0;
 }
 
@@ -345,7 +345,7 @@ span {
 .scene1 {
   margin: 0;
   height: 2000vh;
-  background: #a8c0ff;
+  background: $sky-color-blue;
   background: linear-gradient(to bottom, $day 20%, $afternoon 40%, $sunset 75%, $dark-mode-sky 100%);
   @media (prefers-color-scheme: dark) {
    
@@ -690,7 +690,7 @@ button:hover {
   position: relative;
   @media (prefers-color-scheme: dark) {
    
-    background:#0a0528;
+    background: $dark-mode-sky;
 
   }
 }
@@ -731,7 +731,7 @@ button:hover {
   z-index: -1000;
   @media (prefers-color-scheme: dark) {
    
-    background:#0a0528;
+    background: $dark-mode-sky;
 
   }
 
@@ -796,7 +796,7 @@ button:hover {
   position: relative;
   @media (prefers-color-scheme: dark) {
    
-    background:#0a0528;
+    background: $dark-mode-sky;
 
   }
 
@@ -809,7 +809,7 @@ button:hover {
   background: $sky-color-blue;
   @media (prefers-color-scheme: dark) {
    
-    background:#0a0528;
+    background: $dark-mode-sky
 
   }
 
@@ -921,7 +921,7 @@ padding: 0;
   overflow: hidden;
   @media (prefers-color-scheme: dark) {
    
-    background:#0a0528;
+    background: $dark-mode-sky;
 
   }
 
@@ -971,7 +971,7 @@ animation: MoveUpDown 2s ease-in-out infinite;
   background: $sky-color-blue;
   @media (prefers-color-scheme: dark) {
    
-    background:#0a0528;
+    background: $dark-mode-sky;
 
   }
 }
