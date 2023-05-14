@@ -375,13 +375,13 @@ span {
 
 .left-curtain {
   width: 50%;
-  background: url(./images/curtain1.png);
+  background: url(../images/curtain1.png);
   background-repeat: round;
 }
 
 .right-curtain {
   width: 50%;
-  background: url(./images/curtain1.png);
+  background: url(../images/curtain1.png);
   background-repeat: round;
   display: flex;
   flex-direction: row;
@@ -581,7 +581,7 @@ span {
   margin: auto;
   position: relative;
   top: 5%;
-  background: url(/images/text_box.avif);
+  background: url(../images/text_box.avif);
   max-width: 50%;
   min-height: 3%;
   left: 1%;
@@ -868,7 +868,7 @@ a {
 .scene3__text-container {
   margin: auto;
   position: relative;
-  background: url(./images/text_box.avif);
+  background: url(../images/text_box.avif);
   max-width: 30%;
   min-height: 3%;
   display: flex;
@@ -896,7 +896,7 @@ a {
 .scene4__text-container {
   margin: auto;
   position: relative;
-  background: url(/images/text_box.avif);
+  background: url(../images/text_box.avif);
   max-width: 30%;
   min-height: 3%;
   display: flex;
@@ -924,7 +924,7 @@ a {
 .scene5__text-container {
   margin: auto;
   position: relative;
-  background: url(/images/text_box.avif);
+  background: url(../images/text_box.avif);
   max-width: 30%;
   min-height: 3%;
   display: flex;
@@ -1050,7 +1050,7 @@ a {
 .scene2__text-container {
   margin: auto;
   position: relative;
-  background: url(/images/text_box.avif);
+  background: url(../images/text_box.avif);
   width: 100%;
   min-height: 3%;
   display: flex;
@@ -1244,16 +1244,16 @@ a {
 
 @media (prefers-color-scheme: dark) {
   .image__container--Scene5 {
-    content: url("./images/moon.svg");
+    content: url("../images/moon.svg");
   }
   .image__container--Scene3 {
-    content: url("./images/moon.svg");
+    content: url("../images/moon.svg");
   }
   .sun {
-    content: url("./images/moon.svg");
+    content: url("../images/moon.svg");
   }
   .scene2__ground-sun {
-    content: url("./images/moon.svg");
+    content: url("../images/moon.svg");
   }
 }
 @media (max-width: 768px) {
